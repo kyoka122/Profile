@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tag_a on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/tag_a/</link>
+    <description>Recent content in Tag_a on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 10 Apr 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/tag_a/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Elements</title>
+      <link>http://localhost:1313/posts/elements/</link>
+      <pubDate>Sun, 10 Apr 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/elements/</guid>
+      <description>&lt;p&gt;Nulla vel ante sit amet leo imperdiet porta. Mauris pellentesque finibus ligula non dignissim. Sed sed vehicula velit. Ut eleifend velit maximus massa lobortis mattis. In dui quam, rutrum eu purus et, mattis consequat ex. Vivamus risus mauris, ultricies vel dolor eget, aliquet tristique est. Suspendisse odio urna, vehicula vel diam at, pulvinar porttitor metus. Sed ac ipsum et magna aliquam mattis in eleifend mi. Pellentesque porttitor diam nec hendrerit efficitur. In hac habitasse platea dictumst. Nam arcu enim, imperdiet quis molestie molestie, molestie non diam. Quisque pretium felis in lorem placerat rhoncus eu et lorem. Praesent tincidunt purus sed mi lacinia maximus. Curabitur rutrum tempus posuere. Donec quis fringilla enim. Nullam nisl nisl, vestibulum sed enim vel, tempor pulvinar ligula.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Documentation</title>
+      <link>http://localhost:1313/posts/documentation/</link>
+      <pubDate>Wed, 09 Mar 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/documentation/</guid>
+      <description>&lt;p&gt;Nulla vel ante sit amet leo imperdiet porta. Mauris pellentesque finibus ligula non dignissim. Sed sed vehicula velit. Ut eleifend velit maximus massa lobortis mattis. In dui quam, rutrum eu purus et, mattis consequat ex. Vivamus risus mauris, ultricies vel dolor eget, aliquet tristique est. Suspendisse odio urna, vehicula vel diam at, pulvinar porttitor metus. Sed ac ipsum et magna aliquam mattis in eleifend mi. Pellentesque porttitor diam nec hendrerit efficitur. In hac habitasse platea dictumst. Nam arcu enim, imperdiet quis molestie molestie, molestie non diam. Quisque pretium felis in lorem placerat rhoncus eu et lorem. Praesent tincidunt purus sed mi lacinia maximus. Curabitur rutrum tempus posuere. Donec quis fringilla enim. Nullam nisl nisl, vestibulum sed enim vel, tempor pulvinar ligula.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
