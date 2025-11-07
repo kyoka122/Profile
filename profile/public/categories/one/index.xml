@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>One on My New Hugo Site</title>
+    <title>One on KkaGames</title>
     <link>http://localhost:1313/categories/one/</link>
-    <description>Recent content in One on My New Hugo Site</description>
+    <description>Recent content in One on KkaGames</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>ja-jp</language>
     <lastBuildDate>Mon, 13 Jun 2016 10:51:47 +0530</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/one/index.xml" rel="self" type="application/rss+xml" />
     <item>
