@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on KkaGames</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://kyoka122.github.io/categories/</link>
     <description>Recent content in Categories on KkaGames</description>
     <generator>Hugo</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 13 Jun 2016 10:51:47 +0530</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://kyoka122.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>One</title>
-      <link>http://localhost:1313/categories/one/</link>
+      <link>https://kyoka122.github.io/categories/one/</link>
       <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
-      <guid>http://localhost:1313/categories/one/</guid>
+      <guid>https://kyoka122.github.io/categories/one/</guid>
       <description></description>
     </item>
     <item>
       <title>Two</title>
-      <link>http://localhost:1313/categories/two/</link>
+      <link>https://kyoka122.github.io/categories/two/</link>
       <pubDate>Mon, 13 Jun 2016 10:51:47 +0530</pubDate>
-      <guid>http://localhost:1313/categories/two/</guid>
+      <guid>https://kyoka122.github.io/categories/two/</guid>
       <description></description>
     </item>
   </channel>
