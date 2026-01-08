@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Design on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/design/</link>
+    <description>Recent content in Design on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Modern Layouts with CSS Grid</title>
+      <link>http://localhost:1313/posts/css-grid-layouts/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/css-grid-layouts/</guid>
+      <description>Build complex responsive layouts with CSS Grid in minutes</description>
+    </item>
+    <item>
+      <title>Responsive Design Best Practices</title>
+      <link>http://localhost:1313/posts/responsive-design-tips/</link>
+      <pubDate>Mon, 05 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/responsive-design-tips/</guid>
+      <description>Essential tips for creating websites that work beautifully on all devices</description>
+    </item>
+    <item>
+      <title>The Timeline Blog Layout</title>
+      <link>http://localhost:1313/posts/timeline-layout/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/timeline-layout/</guid>
+      <description>A chronological approach to displaying blog posts with interactive visual elements</description>
+    </item>
+    <item>
+      <title>Understanding Dark Mode in Yassi</title>
+      <link>http://localhost:1313/posts/dark-mode-features/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/dark-mode-features/</guid>
+      <description>Explore the dark mode implementation and how it enhances the user experience</description>
+    </item>
+  </channel>
+</rss>

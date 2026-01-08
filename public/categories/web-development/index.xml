@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web Development on My New Hugo Site</title>
+    <link>http://localhost:1313/categories/web-development/</link>
+    <description>Recent content in Web Development on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yassi Hugo Theme</title>
+      <link>http://localhost:1313/projects/yassi-theme/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/yassi-theme/</guid>
+      <description>A modern, minimal Hugo theme with timeline blog layout and dark mode support</description>
+    </item>
+    <item>
+      <title>Task Manager Application</title>
+      <link>http://localhost:1313/projects/task-manager-app/</link>
+      <pubDate>Sun, 14 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/task-manager-app/</guid>
+      <description>A full-featured task management app with collaboration and real-time updates</description>
+    </item>
+    <item>
+      <title>Headless Blog CMS</title>
+      <link>http://localhost:1313/projects/blog-cms/</link>
+      <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/blog-cms/</guid>
+      <description>Modern content management system with GraphQL API and real-time collaboration</description>
+    </item>
+    <item>
+      <title>E-Commerce Platform</title>
+      <link>http://localhost:1313/projects/e-commerce-platform/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/e-commerce-platform/</guid>
+      <description>Full-featured e-commerce solution with inventory, payments, and order management</description>
+    </item>
+    <item>
+      <title>Video Streaming Platform</title>
+      <link>http://localhost:1313/projects/video-streaming-platform/</link>
+      <pubDate>Wed, 24 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/video-streaming-platform/</guid>
+      <description>Self-hosted video streaming platform with adaptive bitrate and CDN integration</description>
+    </item>
+    <item>
+      <title>Analytics Dashboard</title>
+      <link>http://localhost:1313/projects/analytics-dashboard/</link>
+      <pubDate>Thu, 18 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/analytics-dashboard/</guid>
+      <description>Beautiful, real-time analytics dashboard with customizable widgets and data visualization</description>
+    </item>
+  </channel>
+</rss>

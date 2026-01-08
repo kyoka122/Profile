@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Search on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/search/</link>
+    <description>Recent content in Search on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Code Snippet Library</title>
+      <link>http://localhost:1313/projects/code-snippet-library/</link>
+      <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/code-snippet-library/</guid>
+      <description>Share and discover useful code snippets with syntax highlighting and search</description>
+    </item>
+  </channel>
+</rss>

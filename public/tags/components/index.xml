@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Components on My New Hugo Site</title>
+    <link>http://localhost:1313/tags/components/</link>
+    <description>Recent content in Components on My New Hugo Site</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/components/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Component Design System</title>
+      <link>http://localhost:1313/projects/design-system/</link>
+      <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/design-system/</guid>
+      <description>A comprehensive design system with React components, tokens, and documentation</description>
+    </item>
+  </channel>
+</rss>
