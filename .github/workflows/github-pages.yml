@@ -32,4 +32,4 @@ jobs:
         if: ${{ github.ref == 'refs/heads/main' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public/public # docs以下にsiteをおいた場合　./docs/publicに変更が必要
+          publish_dir: ./public/public # docs以下にsiteをおいた場合　./docs/publicに変更が必要です
