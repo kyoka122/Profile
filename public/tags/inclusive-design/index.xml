@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Inclusive-Design on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/inclusive-design/</link>
-    <description>Recent content in Inclusive-Design on My New Hugo Site</description>
+    <title>Inclusive-Design on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/tags/inclusive-design/</link>
+    <description>Recent content in Inclusive-Design on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 10 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/inclusive-design/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/tags/inclusive-design/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Web Accessibility Essentials</title>
-      <link>http://localhost:1313/posts/accessibility-basics/</link>
+      <link>http://localhost:1313/Profile/posts/accessibility-basics/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/accessibility-basics/</guid>
+      <guid>http://localhost:1313/Profile/posts/accessibility-basics/</guid>
       <description>Make your websites usable for everyone with these accessibility fundamentals</description>
     </item>
   </channel>

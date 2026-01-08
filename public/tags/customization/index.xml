@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Customization on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/customization/</link>
-    <description>Recent content in Customization on My New Hugo Site</description>
+    <title>Customization on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/tags/customization/</link>
+    <description>Recent content in Customization on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 30 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/customization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/tags/customization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Customizing Yassi: Colors, Fonts, and More</title>
-      <link>http://localhost:1313/posts/customization-guide/</link>
+      <link>http://localhost:1313/Profile/posts/customization-guide/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/customization-guide/</guid>
+      <guid>http://localhost:1313/Profile/posts/customization-guide/</guid>
       <description>Learn how to personalize the theme to match your brand and style preferences</description>
     </item>
   </channel>

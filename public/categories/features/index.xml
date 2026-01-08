@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Features on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/features/</link>
-    <description>Recent content in Features on My New Hugo Site</description>
+    <title>Features on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/categories/features/</link>
+    <description>Recent content in Features on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 25 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/features/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/categories/features/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Timeline Blog Layout</title>
-      <link>http://localhost:1313/posts/timeline-layout/</link>
+      <link>http://localhost:1313/Profile/posts/timeline-layout/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/timeline-layout/</guid>
+      <guid>http://localhost:1313/Profile/posts/timeline-layout/</guid>
       <description>A chronological approach to displaying blog posts with interactive visual elements</description>
     </item>
     <item>
       <title>Understanding Dark Mode in Yassi</title>
-      <link>http://localhost:1313/posts/dark-mode-features/</link>
+      <link>http://localhost:1313/Profile/posts/dark-mode-features/</link>
       <pubDate>Sat, 20 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/dark-mode-features/</guid>
+      <guid>http://localhost:1313/Profile/posts/dark-mode-features/</guid>
       <description>Explore the dark mode implementation and how it enhances the user experience</description>
     </item>
   </channel>

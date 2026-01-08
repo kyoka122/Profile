@@ -1,46 +1,46 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tools on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/tools/</link>
-    <description>Recent content in Tools on My New Hugo Site</description>
+    <title>Tools on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/categories/tools/</link>
+    <description>Recent content in Tools on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/categories/tools/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Static Site Generator</title>
-      <link>http://localhost:1313/projects/static-site-generator/</link>
+      <link>http://localhost:1313/Profile/projects/static-site-generator/</link>
       <pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/static-site-generator/</guid>
+      <guid>http://localhost:1313/Profile/projects/static-site-generator/</guid>
       <description>A fast and flexible static site generator built with Go</description>
     </item>
     <item>
       <title>Markdown Editor</title>
-      <link>http://localhost:1313/projects/markdown-editor/</link>
+      <link>http://localhost:1313/Profile/projects/markdown-editor/</link>
       <pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/markdown-editor/</guid>
+      <guid>http://localhost:1313/Profile/projects/markdown-editor/</guid>
       <description>A distraction-free markdown editor with live preview and syntax highlighting</description>
     </item>
     <item>
       <title>Drag-and-Drop Form Builder</title>
-      <link>http://localhost:1313/projects/form-builder/</link>
+      <link>http://localhost:1313/Profile/projects/form-builder/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/form-builder/</guid>
+      <guid>http://localhost:1313/Profile/projects/form-builder/</guid>
       <description>Create beautiful forms with an intuitive drag-and-drop interface and powerful logic</description>
     </item>
     <item>
       <title>Code Snippet Library</title>
-      <link>http://localhost:1313/projects/code-snippet-library/</link>
+      <link>http://localhost:1313/Profile/projects/code-snippet-library/</link>
       <pubDate>Tue, 16 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/code-snippet-library/</guid>
+      <guid>http://localhost:1313/Profile/projects/code-snippet-library/</guid>
       <description>Share and discover useful code snippets with syntax highlighting and search</description>
     </item>
     <item>
       <title>CLI Development Tool</title>
-      <link>http://localhost:1313/projects/cli-tool/</link>
+      <link>http://localhost:1313/Profile/projects/cli-tool/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cli-tool/</guid>
+      <guid>http://localhost:1313/Profile/projects/cli-tool/</guid>
       <description>A command-line tool for scaffolding and managing development projects</description>
     </item>
   </channel>

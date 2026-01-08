@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/categories/</link>
+    <description>Recent content in Categories on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Development</title>
-      <link>http://localhost:1313/categories/development/</link>
+      <link>http://localhost:1313/Profile/categories/development/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/development/</guid>
+      <guid>http://localhost:1313/Profile/categories/development/</guid>
       <description></description>
     </item>
     <item>
       <title>Design</title>
-      <link>http://localhost:1313/categories/design/</link>
+      <link>http://localhost:1313/Profile/categories/design/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/design/</guid>
+      <guid>http://localhost:1313/Profile/categories/design/</guid>
       <description></description>
     </item>
     <item>
       <title>DevOps</title>
-      <link>http://localhost:1313/categories/devops/</link>
+      <link>http://localhost:1313/Profile/categories/devops/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/devops/</guid>
+      <guid>http://localhost:1313/Profile/categories/devops/</guid>
       <description></description>
     </item>
     <item>
       <title>Web Development</title>
-      <link>http://localhost:1313/categories/web-development/</link>
+      <link>http://localhost:1313/Profile/categories/web-development/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/web-development/</guid>
+      <guid>http://localhost:1313/Profile/categories/web-development/</guid>
       <description></description>
     </item>
     <item>
       <title>Documentation</title>
-      <link>http://localhost:1313/categories/documentation/</link>
+      <link>http://localhost:1313/Profile/categories/documentation/</link>
       <pubDate>Tue, 30 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/documentation/</guid>
+      <guid>http://localhost:1313/Profile/categories/documentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Tools</title>
-      <link>http://localhost:1313/categories/tools/</link>
+      <link>http://localhost:1313/Profile/categories/tools/</link>
       <pubDate>Fri, 26 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/tools/</guid>
+      <guid>http://localhost:1313/Profile/categories/tools/</guid>
       <description></description>
     </item>
     <item>
       <title>Features</title>
-      <link>http://localhost:1313/categories/features/</link>
+      <link>http://localhost:1313/Profile/categories/features/</link>
       <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/features/</guid>
+      <guid>http://localhost:1313/Profile/categories/features/</guid>
       <description></description>
     </item>
     <item>
       <title>AI/ML</title>
-      <link>http://localhost:1313/categories/ai/ml/</link>
+      <link>http://localhost:1313/Profile/categories/ai/ml/</link>
       <pubDate>Mon, 22 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ai/ml/</guid>
+      <guid>http://localhost:1313/Profile/categories/ai/ml/</guid>
       <description></description>
     </item>
     <item>
       <title>Libraries</title>
-      <link>http://localhost:1313/categories/libraries/</link>
+      <link>http://localhost:1313/Profile/categories/libraries/</link>
       <pubDate>Fri, 12 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/libraries/</guid>
+      <guid>http://localhost:1313/Profile/categories/libraries/</guid>
       <description></description>
     </item>
   </channel>

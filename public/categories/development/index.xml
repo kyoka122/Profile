@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Development on My New Hugo Site</title>
-    <link>http://localhost:1313/categories/development/</link>
-    <description>Recent content in Development on My New Hugo Site</description>
+    <title>Development on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/categories/development/</link>
+    <description>Recent content in Development on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/categories/development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Effective Testing Strategies</title>
-      <link>http://localhost:1313/posts/testing-strategies/</link>
+      <link>http://localhost:1313/Profile/posts/testing-strategies/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/testing-strategies/</guid>
+      <guid>http://localhost:1313/Profile/posts/testing-strategies/</guid>
       <description>Build confidence in your code with a comprehensive testing approach</description>
     </item>
     <item>
       <title>TypeScript Tips for Better Code</title>
-      <link>http://localhost:1313/posts/typescript-tips/</link>
+      <link>http://localhost:1313/Profile/posts/typescript-tips/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/typescript-tips/</guid>
+      <guid>http://localhost:1313/Profile/posts/typescript-tips/</guid>
       <description>Level up your TypeScript skills with these practical tips and patterns</description>
     </item>
     <item>
       <title>Web Performance Optimization Checklist</title>
-      <link>http://localhost:1313/posts/performance-optimization/</link>
+      <link>http://localhost:1313/Profile/posts/performance-optimization/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/performance-optimization/</guid>
+      <guid>http://localhost:1313/Profile/posts/performance-optimization/</guid>
       <description>Quick wins and advanced techniques for faster websites</description>
     </item>
     <item>
       <title>REST API Design Principles</title>
-      <link>http://localhost:1313/posts/api-design-principles/</link>
+      <link>http://localhost:1313/Profile/posts/api-design-principles/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/api-design-principles/</guid>
+      <guid>http://localhost:1313/Profile/posts/api-design-principles/</guid>
       <description>Best practices for designing clean, maintainable RESTful APIs</description>
     </item>
     <item>
       <title>Git Workflow for Teams</title>
-      <link>http://localhost:1313/posts/git-workflow-guide/</link>
+      <link>http://localhost:1313/Profile/posts/git-workflow-guide/</link>
       <pubDate>Thu, 15 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/git-workflow-guide/</guid>
+      <guid>http://localhost:1313/Profile/posts/git-workflow-guide/</guid>
       <description>Effective Git strategies for collaborative software development</description>
     </item>
     <item>
       <title>Mastering Async/Await in JavaScript</title>
-      <link>http://localhost:1313/posts/javascript-async-await/</link>
+      <link>http://localhost:1313/Profile/posts/javascript-async-await/</link>
       <pubDate>Sat, 10 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/javascript-async-await/</guid>
+      <guid>http://localhost:1313/Profile/posts/javascript-async-await/</guid>
       <description>A comprehensive guide to asynchronous programming in modern JavaScript</description>
     </item>
   </channel>

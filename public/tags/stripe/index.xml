@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Stripe on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/stripe/</link>
-    <description>Recent content in Stripe on My New Hugo Site</description>
+    <title>Stripe on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/tags/stripe/</link>
+    <description>Recent content in Stripe on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/stripe/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/tags/stripe/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>E-Commerce Platform</title>
-      <link>http://localhost:1313/projects/e-commerce-platform/</link>
+      <link>http://localhost:1313/Profile/projects/e-commerce-platform/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/e-commerce-platform/</guid>
+      <guid>http://localhost:1313/Profile/projects/e-commerce-platform/</guid>
       <description>Full-featured e-commerce solution with inventory, payments, and order management</description>
     </item>
   </channel>

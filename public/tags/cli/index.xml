@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Cli on My New Hugo Site</title>
-    <link>http://localhost:1313/tags/cli/</link>
-    <description>Recent content in Cli on My New Hugo Site</description>
+    <title>Cli on Yassi Theme Example</title>
+    <link>http://localhost:1313/Profile/tags/cli/</link>
+    <description>Recent content in Cli on Yassi Theme Example</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/cli/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/Profile/tags/cli/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CLI Development Tool</title>
-      <link>http://localhost:1313/projects/cli-tool/</link>
+      <link>http://localhost:1313/Profile/projects/cli-tool/</link>
       <pubDate>Mon, 08 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/cli-tool/</guid>
+      <guid>http://localhost:1313/Profile/projects/cli-tool/</guid>
       <description>A command-line tool for scaffolding and managing development projects</description>
     </item>
   </channel>
