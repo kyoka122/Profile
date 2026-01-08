@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Understanding Dark Mode in Yassi | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  rel="stylesheet">
+
+
+
+
+
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body class="site-wrapper">
+  <header>
+    <div class="header-wrapper">
+    <nav class="navbar" role="navigation">
+        
+        <div class="navbar-brand">
+            <a href="/">My New Hugo Site</a>
+        </div>
+
+        
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-nav">
+                
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/projects/">Projects</a>
+    </li>
+    </ul>
+  </nav>
+
+                <a href="/projects">Projects</a>
+            </div>
+            <div class="navbar-actions">
+                
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+</div>
+
+  </header>
+  <main class="site-main">
+    
+
+
+
+
+<article class="post-article">
+  <header class="post-header">
+    <h1 class="post-title">Understanding Dark Mode in Yassi</h1>
+    <div class="post-meta">
+      <time datetime="2024-01-20T00:00:00&#43;00:00">January 20, 2024</time>
+      <span class="post-meta-separator">•</span>
+      <span>2 min read</span>
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Categories:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="/categories/features/">Features</a></li>
+    </ul>
+  </div>
+
+      
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Tags:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="/tags/features/">Features</a></li>
+        <li class="terms-item"><a href="/tags/design/">Design</a></li>
+        <li class="terms-item"><a href="/tags/accessibility/">Accessibility</a></li>
+    </ul>
+  </div>
+
+      
+    </div>
+    
+    <p class="post-summary">Explore the dark mode implementation and how it enhances the user experience</p>
+    
+  </header>
+
+  
+
+  <div class="post-content">
+    <p>Dark mode has become an essential feature for modern websites. Yassi implements a thoughtful dark mode that respects user preferences and provides a comfortable reading experience in low-light conditions.</p>
+<h2 id="how-it-works">How It Works</h2>
+<p>The dark mode toggle is located in the top navigation bar. When you click it, the entire site transitions smoothly between light and dark themes.</p>
+<h3 id="persistent-preferences">Persistent Preferences</h3>
+<p>Your theme choice is saved to browser localStorage, so when you return to the site, your preferred theme is automatically applied. No need to toggle it every time!</p>
+<h3 id="system-preference-detection">System Preference Detection</h3>
+<p>On your first visit, Yassi detects your system&rsquo;s color scheme preference. If your operating system is set to dark mode, the site will automatically start in dark mode.</p>
+<h2 id="design-considerations">Design Considerations</h2>
+<p>The dark theme isn&rsquo;t just an inverted color scheme. Every element has been carefully considered:</p>
+<ul>
+<li><strong>Text Contrast</strong> - Optimized for readability without eye strain</li>
+<li><strong>Code Blocks</strong> - Syntax highlighting adjusted for dark backgrounds</li>
+<li><strong>Images and Media</strong> - Border treatments to maintain visual hierarchy</li>
+<li><strong>Interactive Elements</strong> - Hover states and focus indicators remain clear</li>
+</ul>
+<h2 id="color-palette">Color Palette</h2>
+<p>The dark mode uses a carefully selected color palette:</p>
+<ul>
+<li>Background: Deep charcoal tones</li>
+<li>Text: Soft white for reduced glare</li>
+<li>Accents: Vibrant blues that work in both themes</li>
+<li>Borders: Subtle grays for definition</li>
+</ul>
+<h2 id="accessibility">Accessibility</h2>
+<p>Dark mode isn&rsquo;t just about aesthetics. It can:</p>
+<ul>
+<li>Reduce eye strain in low-light environments</li>
+<li>Save battery life on OLED displays</li>
+<li>Help users with light sensitivity</li>
+<li>Provide choice and control to your visitors</li>
+</ul>
+<p>Try toggling between themes to see the smooth transition in action!</p>
+
+  </div>
+
+  
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+    <p align="center" class="copyright">My New Hugo Site © 2026. All rights reserved.</p>
+
+  </footer>
+  
+
+</body>
+</html>

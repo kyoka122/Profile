@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Git Workflow for Teams | My New Hugo Site</title>
+
+    <link rel="stylesheet" href="/css/main.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+  rel="stylesheet">
+
+
+
+
+
+
+
+      <script src="/js/main.js"></script>
+
+
+</head>
+<body class="site-wrapper">
+  <header>
+    <div class="header-wrapper">
+    <nav class="navbar" role="navigation">
+        
+        <div class="navbar-brand">
+            <a href="/">My New Hugo Site</a>
+        </div>
+
+        
+        <button class="navbar-toggle" id="navbar-toggle" aria-label="Toggle navigation">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+
+        
+        <div class="navbar-menu" id="navbar-menu">
+            <div class="navbar-nav">
+                
+  <nav>
+    <ul>
+    <li>
+      <a href="/">Home</a>
+    </li>
+    <li>
+      <a aria-current="true" class="ancestor" href="/posts/">Posts</a>
+    </li>
+    <li>
+      <a href="/tags/">Tags</a>
+    </li>
+    <li>
+      <a href="/projects/">Projects</a>
+    </li>
+    </ul>
+  </nav>
+
+                <a href="/projects">Projects</a>
+            </div>
+            <div class="navbar-actions">
+                
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+                    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round"></line>
+                    </svg>
+                    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+</div>
+
+  </header>
+  <main class="site-main">
+    
+
+
+
+
+<article class="post-article">
+  <header class="post-header">
+    <h1 class="post-title">Git Workflow for Teams</h1>
+    <div class="post-meta">
+      <time datetime="2024-02-15T00:00:00&#43;00:00">February 15, 2024</time>
+      <span class="post-meta-separator">•</span>
+      <span>2 min read</span>
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Categories:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="/categories/development/">Development</a></li>
+    </ul>
+  </div>
+
+      
+      
+      <span class="post-meta-separator">•</span>
+      
+  <div class="terms-wrapper">
+    <div class="terms-label">Tags:</div>
+    <ul class="terms-list">
+        <li class="terms-item"><a href="/tags/git/">Git</a></li>
+        <li class="terms-item"><a href="/tags/workflow/">Workflow</a></li>
+        <li class="terms-item"><a href="/tags/collaboration/">Collaboration</a></li>
+    </ul>
+  </div>
+
+      
+    </div>
+    
+    <p class="post-summary">Effective Git strategies for collaborative software development</p>
+    
+  </header>
+
+  
+
+  <div class="post-content">
+    <p>A solid Git workflow is essential for team productivity. Here&rsquo;s a practical guide to Git workflows that scale.</p>
+<h2 id="feature-branch-workflow">Feature Branch Workflow</h2>
+<p>The most popular workflow for modern teams:</p>
+<h3 id="basic-flow">Basic Flow</h3>
+<ol>
+<li>Create a branch from main</li>
+<li>Make commits on your branch</li>
+<li>Open a pull request</li>
+<li>Review and discuss</li>
+<li>Merge to main</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Create and switch to feature branch</span>
+</span></span><span style="display:flex;"><span>git checkout -b feature/user-authentication
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Make your changes and commit</span>
+</span></span><span style="display:flex;"><span>git add .
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Add user authentication&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Push to remote</span>
+</span></span><span style="display:flex;"><span>git push origin feature/user-authentication
+</span></span></code></pre></div><h2 id="branch-naming-conventions">Branch Naming Conventions</h2>
+<p>Consistent naming helps everyone:</p>
+<ul>
+<li><code>feature/</code> - New features</li>
+<li><code>bugfix/</code> - Bug fixes</li>
+<li><code>hotfix/</code> - Critical production fixes</li>
+<li><code>refactor/</code> - Code refactoring</li>
+<li><code>docs/</code> - Documentation updates</li>
+</ul>
+<p>Examples:</p>
+<pre tabindex="0"><code>feature/payment-integration
+bugfix/login-error
+hotfix/security-patch
+</code></pre><h2 id="commit-messages">Commit Messages</h2>
+<p>Write clear, descriptive commit messages:</p>
+<pre tabindex="0"><code>feat: add user authentication
+fix: resolve login timeout issue
+docs: update API documentation
+refactor: simplify payment processing
+test: add unit tests for auth module
+</code></pre><h3 id="good-commit-message-template">Good Commit Message Template</h3>
+<pre tabindex="0"><code>&lt;type&gt;: &lt;short summary&gt;
+
+&lt;detailed description if needed&gt;
+
+&lt;issue references&gt;
+</code></pre><h2 id="pull-request-best-practices">Pull Request Best Practices</h2>
+<h3 id="creating-prs">Creating PRs</h3>
+<ul>
+<li>Keep PRs small and focused</li>
+<li>Write descriptive titles</li>
+<li>Include context in description</li>
+<li>Reference related issues</li>
+<li>Add screenshots for UI changes</li>
+<li>Assign reviewers</li>
+</ul>
+<h3 id="reviewing-prs">Reviewing PRs</h3>
+<ul>
+<li>Review promptly</li>
+<li>Be constructive and specific</li>
+<li>Test the changes locally</li>
+<li>Check for code quality</li>
+<li>Approve or request changes</li>
+</ul>
+<h2 id="merge-strategies">Merge Strategies</h2>
+<h3 id="merge-commit">Merge Commit</h3>
+<p>Preserves full history:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git merge feature/new-feature
+</span></span></code></pre></div><h3 id="squash-and-merge">Squash and Merge</h3>
+<p>Creates single commit:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git merge --squash feature/new-feature
+</span></span></code></pre></div><h3 id="rebase-and-merge">Rebase and Merge</h3>
+<p>Creates linear history:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git rebase main
+</span></span><span style="display:flex;"><span>git merge feature/new-feature
+</span></span></code></pre></div><h2 id="conflict-resolution">Conflict Resolution</h2>
+<p>Handle merge conflicts systematically:</p>
+<ol>
+<li>Pull latest changes</li>
+<li>Identify conflicts</li>
+<li>Resolve conflicts manually</li>
+<li>Test thoroughly</li>
+<li>Commit resolution</li>
+</ol>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Update your branch</span>
+</span></span><span style="display:flex;"><span>git pull origin main
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Resolve conflicts in your editor</span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Then mark as resolved</span>
+</span></span><span style="display:flex;"><span>git add resolved-file.js
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;Resolve merge conflicts&#34;</span>
+</span></span></code></pre></div><h2 id="keeping-branches-updated">Keeping Branches Updated</h2>
+<p>Regularly sync with main:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Update main</span>
+</span></span><span style="display:flex;"><span>git checkout main
+</span></span><span style="display:flex;"><span>git pull
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Update your feature branch</span>
+</span></span><span style="display:flex;"><span>git checkout feature/my-feature
+</span></span><span style="display:flex;"><span>git rebase main
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Or merge if you prefer</span>
+</span></span><span style="display:flex;"><span>git merge main
+</span></span></code></pre></div><h2 id="protecting-main-branch">Protecting Main Branch</h2>
+<p>Set up branch protection:</p>
+<ul>
+<li>Require pull request reviews</li>
+<li>Require status checks to pass</li>
+<li>Require branches to be up to date</li>
+<li>Restrict who can push</li>
+<li>Require linear history (optional)</li>
+</ul>
+<h2 id="tags-and-releases">Tags and Releases</h2>
+<p>Mark important points in history:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span><span style="color:#75715e"># Create annotated tag</span>
+</span></span><span style="display:flex;"><span>git tag -a v1.0.0 -m <span style="color:#e6db74">&#34;Release version 1.0.0&#34;</span>
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e"># Push tags</span>
+</span></span><span style="display:flex;"><span>git push origin --tags
+</span></span></code></pre></div><p>A well-defined Git workflow reduces friction and helps teams ship better code faster. Start simple and adjust based on your team&rsquo;s needs.</p>
+
+  </div>
+
+  
+</article>
+
+
+  </main>
+  <footer class="site-footer">
+    <p align="center" class="copyright">My New Hugo Site © 2026. All rights reserved.</p>
+
+  </footer>
+  
+
+</body>
+</html>
