@@ -1,0 +1,83 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>Web Accessibility Essentials | Yassi Theme Example</title><link rel=stylesheet href=/Profile/css/main.min.668eb28b05bb0817e49e198a8fd6db56620cbfbfe5bdd17442d099b12cc84205.css integrity="sha256-Zo6yiwW7CBfknhmKj9bbVmIMv7/lvdF0QtCZsSzIQgU=" crossorigin=anonymous><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel=stylesheet><script src=/Profile/js/main.89f752ba9201e6c77d9acbb549b5a334a6e849da3421a82dedd4addeda093614.js integrity="sha256-ifdSupIB5sd9msu1SbWjNKboSdo0Iagt7dSt3toJNhQ=" crossorigin=anonymous></script></head><body class=site-wrapper><header><div class=header-wrapper><nav class=navbar role=navigation><div class=navbar-brand><a href=/>Yassi Theme Example</a></div><button class=navbar-toggle id=navbar-toggle aria-label="Toggle navigation">
+<span class=hamburger-line></span>
+<span class=hamburger-line></span>
+<span class=hamburger-line></span></button><div class=navbar-menu id=navbar-menu><div class=navbar-nav><nav><ul><li><a href=/Profile/about/>About</a></li><li><a href=/Profile/projects/>Projects</a></li><li><a href=/Profile/posts/>Posts</a></li><li><a href=/Profile/tags/>Tags</a></li><li><a href=/Profile/categories/>Categories</a></li></ul></nav><a href=/projects>Projects</a></div><div class=navbar-actions><button id=theme-toggle class=theme-toggle aria-label="Toggle dark mode">
+<svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button></div></div></nav></div></header><main class=site-main><article class=post-article><header class=post-header><h1 class=post-title>Web Accessibility Essentials</h1><div class=post-meta><time datetime=2024-03-10T00:00:00+00:00>March 10, 2024</time>
+<span class=post-meta-separator>•</span>
+<span>2 min read</span>
+<span class=post-meta-separator>•</span><div class=terms-wrapper><div class=terms-label>Categories:</div><ul class=terms-list><li class=terms-item><a href=/Profile/categories/design/>Design</a></li></ul></div><span class=post-meta-separator>•</span><div class=terms-wrapper><div class=terms-label>Tags:</div><ul class=terms-list><li class=terms-item><a href=/Profile/tags/accessibility/>Accessibility</a></li><li class=terms-item><a href=/Profile/tags/a11y/>A11y</a></li><li class=terms-item><a href=/Profile/tags/inclusive-design/>Inclusive-Design</a></li></ul></div></div><p class=post-summary>Make your websites usable for everyone with these accessibility fundamentals</p></header><div class=post-content><p>Accessibility isn&rsquo;t optional—it&rsquo;s essential. Here&rsquo;s how to make your websites usable for everyone.</p><h2 id=semantic-html>Semantic HTML</h2><p>Use the right elements:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span><span style=color:#75715e>&lt;!-- Good --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>nav</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>ul</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>li</span>&gt;&lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/&#34;</span>&gt;Home&lt;/<span style=color:#f92672>a</span>&gt;&lt;/<span style=color:#f92672>li</span>&gt;
+</span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>ul</span>&gt;
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>nav</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>main</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>article</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>h1</span>&gt;Article Title&lt;/<span style=color:#f92672>h1</span>&gt;
+</span></span><span style=display:flex><span>    &lt;<span style=color:#f92672>p</span>&gt;Content...&lt;/<span style=color:#f92672>p</span>&gt;
+</span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>article</span>&gt;
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>main</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!-- Bad --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>class</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;nav&#34;</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>div</span>&gt;&lt;<span style=color:#f92672>a</span> <span style=color:#a6e22e>href</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;/&#34;</span>&gt;Home&lt;/<span style=color:#f92672>a</span>&gt;&lt;/<span style=color:#f92672>div</span>&gt;
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>div</span>&gt;
+</span></span></code></pre></div><h2 id=aria-labels>ARIA Labels</h2><p>Enhance accessibility with ARIA:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span><span style=color:#75715e>&lt;!-- Button with no visible text --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>button</span> <span style=color:#a6e22e>aria-label</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Close dialog&#34;</span>&gt;×&lt;/<span style=color:#f92672>button</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!-- Navigation landmark --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>nav</span> <span style=color:#a6e22e>aria-label</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Main navigation&#34;</span>&gt;...&lt;/<span style=color:#f92672>nav</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!-- Loading state --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>aria-live</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;polite&#34;</span> <span style=color:#a6e22e>aria-busy</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;true&#34;</span>&gt;
+</span></span><span style=display:flex><span>  Loading...
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>div</span>&gt;
+</span></span></code></pre></div><h2 id=keyboard-navigation>Keyboard Navigation</h2><p>Ensure keyboard accessibility:</p><ul><li>All interactive elements must be keyboard accessible</li><li>Logical tab order</li><li>Visible focus indicators</li><li>Skip links for main content</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-css data-lang=css><span style=display:flex><span><span style=color:#75715e>/* Visible focus indicator */</span>
+</span></span><span style=display:flex><span>:<span style=color:#a6e22e>focus</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>outline</span>: <span style=color:#ae81ff>2</span><span style=color:#66d9ef>px</span> <span style=color:#66d9ef>solid</span> <span style=color:#66d9ef>blue</span>;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>outline-offset</span>: <span style=color:#ae81ff>2</span><span style=color:#66d9ef>px</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Never remove outline without replacement */</span>
+</span></span><span style=display:flex><span>:<span style=color:#a6e22e>focus</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>outline</span>: <span style=color:#66d9ef>none</span>; <span style=color:#75715e>/* Only if providing alternative */</span>
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>box-shadow</span>: <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>0</span> <span style=color:#ae81ff>3</span><span style=color:#66d9ef>px</span> rgba(<span style=color:#ae81ff>66</span>, <span style=color:#ae81ff>153</span>, <span style=color:#ae81ff>225</span>, <span style=color:#ae81ff>0.5</span>);
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h2 id=color-contrast>Color Contrast</h2><p>Ensure sufficient contrast:</p><ul><li>Normal text: 4.5:1 minimum</li><li>Large text: 3:1 minimum</li><li>UI components: 3:1 minimum</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-css data-lang=css><span style=display:flex><span><span style=color:#75715e>/* Good contrast */</span>
+</span></span><span style=display:flex><span>.<span style=color:#a6e22e>text</span> {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>color</span>: <span style=color:#ae81ff>#333</span>;
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>background</span>: <span style=color:#ae81ff>#fff</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>/* Check with tools like:
+</span></span></span><span style=display:flex><span><span style=color:#75715e>   - WebAIM Contrast Checker
+</span></span></span><span style=display:flex><span><span style=color:#75715e>   - Chrome DevTools
+</span></span></span><span style=display:flex><span><span style=color:#75715e>   - Lighthouse */</span>
+</span></span></code></pre></div><h2 id=images>Images</h2><p>Always provide alt text:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span><span style=color:#75715e>&lt;!-- Informative image --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>img</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;graph.png&#34;</span> <span style=color:#a6e22e>alt</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Sales increased 50% in Q4&#34;</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!-- Decorative image --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>img</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;decoration.png&#34;</span> <span style=color:#a6e22e>alt</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;&#34;</span>&gt;
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>&lt;!-- Complex image --&gt;</span>
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>img</span> <span style=color:#a6e22e>src</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;chart.png&#34;</span> 
+</span></span><span style=display:flex><span>     <span style=color:#a6e22e>alt</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;Bar chart showing sales data&#34;</span>
+</span></span><span style=display:flex><span>     <span style=color:#a6e22e>aria-describedby</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;chart-description&#34;</span>&gt;
+</span></span><span style=display:flex><span>&lt;<span style=color:#f92672>div</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;chart-description&#34;</span>&gt;
+</span></span><span style=display:flex><span>  Detailed description of the chart data...
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>div</span>&gt;
+</span></span></code></pre></div><h2 id=forms>Forms</h2><p>Make forms accessible:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-html data-lang=html><span style=display:flex><span>&lt;<span style=color:#f92672>form</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>label</span> <span style=color:#a6e22e>for</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span>&gt;Email address&lt;/<span style=color:#f92672>label</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>input</span> 
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>type</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span> 
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span> 
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>name</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>required</span>
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>aria-describedby</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email-error&#34;</span>&gt;
+</span></span><span style=display:flex><span>  &lt;<span style=color:#f92672>span</span> <span style=color:#a6e22e>id</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;email-error&#34;</span> <span style=color:#a6e22e>role</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;alert&#34;</span>&gt;
+</span></span><span style=display:flex><span>    Please enter a valid email
+</span></span><span style=display:flex><span>  &lt;/<span style=color:#f92672>span</span>&gt;
+</span></span><span style=display:flex><span>&lt;/<span style=color:#f92672>form</span>&gt;
+</span></span></code></pre></div><h2 id=testing>Testing</h2><p>Test with:</p><ul><li>Screen readers (NVDA, JAWS, VoiceOver)</li><li>Keyboard only navigation</li><li>Browser zoom (200%)</li><li>Color contrast tools</li><li>Automated tools (axe, Lighthouse)</li></ul><h2 id=common-mistakes>Common Mistakes</h2><ol><li>Missing alt text</li><li>Poor color contrast</li><li>No keyboard access</li><li>Unclear form labels</li><li>Missing ARIA labels</li><li>Removed focus indicators</li><li>Automatic media playback</li><li>Time limits without controls</li></ol><p>Accessibility benefits everyone. Start with these basics and make the web more inclusive.</p></div></article></main><footer class=site-footer><p align=center class=copyright>Yassi Theme Example © 2026. All rights reserved.</p></footer></body></html>

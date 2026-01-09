@@ -1,0 +1,120 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>Docker Fundamentals for Developers | Yassi Theme Example</title><link rel=stylesheet href=/Profile/css/main.min.668eb28b05bb0817e49e198a8fd6db56620cbfbfe5bdd17442d099b12cc84205.css integrity="sha256-Zo6yiwW7CBfknhmKj9bbVmIMv7/lvdF0QtCZsSzIQgU=" crossorigin=anonymous><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel=stylesheet><script src=/Profile/js/main.89f752ba9201e6c77d9acbb549b5a334a6e849da3421a82dedd4addeda093614.js integrity="sha256-ifdSupIB5sd9msu1SbWjNKboSdo0Iagt7dSt3toJNhQ=" crossorigin=anonymous></script></head><body class=site-wrapper><header><div class=header-wrapper><nav class=navbar role=navigation><div class=navbar-brand><a href=/>Yassi Theme Example</a></div><button class=navbar-toggle id=navbar-toggle aria-label="Toggle navigation">
+<span class=hamburger-line></span>
+<span class=hamburger-line></span>
+<span class=hamburger-line></span></button><div class=navbar-menu id=navbar-menu><div class=navbar-nav><nav><ul><li><a href=/Profile/about/>About</a></li><li><a href=/Profile/projects/>Projects</a></li><li><a href=/Profile/posts/>Posts</a></li><li><a href=/Profile/tags/>Tags</a></li><li><a href=/Profile/categories/>Categories</a></li></ul></nav><a href=/projects>Projects</a></div><div class=navbar-actions><button id=theme-toggle class=theme-toggle aria-label="Toggle dark mode">
+<svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button></div></div></nav></div></header><main class=site-main><article class=post-article><header class=post-header><h1 class=post-title>Docker Fundamentals for Developers</h1><div class=post-meta><time datetime=2024-03-05T00:00:00+00:00>March 5, 2024</time>
+<span class=post-meta-separator>•</span>
+<span>2 min read</span>
+<span class=post-meta-separator>•</span><div class=terms-wrapper><div class=terms-label>Categories:</div><ul class=terms-list><li class=terms-item><a href=/Profile/categories/devops/>DevOps</a></li></ul></div><span class=post-meta-separator>•</span><div class=terms-wrapper><div class=terms-label>Tags:</div><ul class=terms-list><li class=terms-item><a href=/Profile/tags/docker/>Docker</a></li><li class=terms-item><a href=/Profile/tags/containers/>Containers</a></li><li class=terms-item><a href=/Profile/tags/devops/>Devops</a></li></ul></div></div><p class=post-summary>Get started with Docker containerization and streamline your development workflow</p></header><div class=post-content><p>Docker has become essential for modern development. Let&rsquo;s understand the fundamentals.</p><h2 id=what-is-docker>What is Docker?</h2><p>Docker packages applications and their dependencies into containers—lightweight, portable units that run consistently anywhere.</p><h2 id=core-concepts>Core Concepts</h2><h3 id=images>Images</h3><p>Templates for containers:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Pull an image</span>
+</span></span><span style=display:flex><span>docker pull node:18-alpine
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># List images</span>
+</span></span><span style=display:flex><span>docker images
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Build from Dockerfile</span>
+</span></span><span style=display:flex><span>docker build -t myapp:1.0 .
+</span></span></code></pre></div><h3 id=containers>Containers</h3><p>Running instances of images:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Run a container</span>
+</span></span><span style=display:flex><span>docker run -d -p 3000:3000 myapp:1.0
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># List running containers</span>
+</span></span><span style=display:flex><span>docker ps
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Stop a container</span>
+</span></span><span style=display:flex><span>docker stop container-id
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Remove a container</span>
+</span></span><span style=display:flex><span>docker rm container-id
+</span></span></code></pre></div><h3 id=dockerfile>Dockerfile</h3><p>Define your image:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-dockerfile data-lang=dockerfile><span style=display:flex><span><span style=color:#66d9ef>FROM</span> <span style=color:#e6db74>node:18-alpine</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>WORKDIR</span> <span style=color:#e6db74>/app</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>COPY</span> package*.json ./<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>RUN</span> npm install<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>COPY</span> . .<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>EXPOSE</span> <span style=color:#e6db74>3000</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>CMD</span> [<span style=color:#e6db74>&#34;npm&#34;</span>, <span style=color:#e6db74>&#34;start&#34;</span>]<span style=color:#960050;background-color:#1e0010>
+</span></span></span></code></pre></div><h2 id=common-commands>Common Commands</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Build image</span>
+</span></span><span style=display:flex><span>docker build -t myapp .
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Run container</span>
+</span></span><span style=display:flex><span>docker run -p 3000:3000 myapp
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Run with volume</span>
+</span></span><span style=display:flex><span>docker run -v <span style=color:#66d9ef>$(</span>pwd<span style=color:#66d9ef>)</span>:/app myapp
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Run with environment variables</span>
+</span></span><span style=display:flex><span>docker run -e NODE_ENV<span style=color:#f92672>=</span>production myapp
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Execute command in running container</span>
+</span></span><span style=display:flex><span>docker exec -it container-id sh
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># View logs</span>
+</span></span><span style=display:flex><span>docker logs container-id
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># View logs in real-time</span>
+</span></span><span style=display:flex><span>docker logs -f container-id
+</span></span></code></pre></div><h2 id=docker-compose>Docker Compose</h2><p>Manage multi-container applications:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#75715e># docker-compose.yml</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>version</span>: <span style=color:#e6db74>&#39;3.8&#39;</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>services</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>web</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>build</span>: <span style=color:#ae81ff>.</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>ports</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#e6db74>&#34;3000:3000&#34;</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>.:/app</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>environment</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>NODE_ENV=development</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>depends_on</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>db</span>
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#f92672>db</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>image</span>: <span style=color:#ae81ff>postgres:15</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>environment</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>POSTGRES_PASSWORD=secret</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>volumes</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#ae81ff>db-data:/var/lib/postgresql/data</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>volumes</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>db-data</span>:
+</span></span></code></pre></div><p>Run with:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span>docker-compose up
+</span></span><span style=display:flex><span>docker-compose down
+</span></span></code></pre></div><h2 id=best-practices>Best Practices</h2><h3 id=optimize-images>Optimize Images</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-dockerfile data-lang=dockerfile><span style=display:flex><span><span style=color:#75715e># Use specific versions</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>FROM</span> <span style=color:#e6db74>node:18-alpine</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#75715e># Combine RUN commands</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>RUN</span> apk add --no-cache git <span style=color:#f92672>&amp;&amp;</span> <span style=color:#ae81ff>\
+</span></span></span><span style=display:flex><span>    npm install -g pnpm<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#75715e># Use .dockerignore</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#75715e># Add: node_modules, .git, *.md</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span></code></pre></div><h3 id=security>Security</h3><ul><li>Don&rsquo;t run as root</li><li>Use official base images</li><li>Scan for vulnerabilities</li><li>Keep images updated</li><li>Use secrets management</li></ul><h3 id=development-vs-production>Development vs Production</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-dockerfile data-lang=dockerfile><span style=display:flex><span><span style=color:#75715e># Development</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>FROM</span> <span style=color:#e6db74>node:18-alpine</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>WORKDIR</span> <span style=color:#e6db74>/app</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>COPY</span> . .<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>RUN</span> npm install<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>CMD</span> [<span style=color:#e6db74>&#34;npm&#34;</span>, <span style=color:#e6db74>&#34;run&#34;</span>, <span style=color:#e6db74>&#34;dev&#34;</span>]<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#75715e># Production</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>FROM</span> <span style=color:#e6db74>node:18-alpine</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>WORKDIR</span> <span style=color:#e6db74>/app</span><span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>COPY</span> package*.json ./<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>RUN</span> npm ci --only<span style=color:#f92672>=</span>production<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>COPY</span> . .<span style=color:#960050;background-color:#1e0010>
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>CMD</span> [<span style=color:#e6db74>&#34;npm&#34;</span>, <span style=color:#e6db74>&#34;start&#34;</span>]<span style=color:#960050;background-color:#1e0010>
+</span></span></span></code></pre></div><h2 id=debugging>Debugging</h2><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Interactive shell</span>
+</span></span><span style=display:flex><span>docker run -it myapp sh
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Inspect container</span>
+</span></span><span style=display:flex><span>docker inspect container-id
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># View resource usage</span>
+</span></span><span style=display:flex><span>docker stats
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Check logs</span>
+</span></span><span style=display:flex><span>docker logs --tail <span style=color:#ae81ff>100</span> container-id
+</span></span></code></pre></div><p>Docker simplifies development, testing, and deployment. Start with these basics and gradually explore advanced features like networking, volumes, and orchestration.</p></div></article></main><footer class=site-footer><p align=center class=copyright>Yassi Theme Example © 2026. All rights reserved.</p></footer></body></html>

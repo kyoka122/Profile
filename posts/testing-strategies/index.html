@@ -1,0 +1,156 @@
+<!doctype html><html lang=en-us dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width"><title>Effective Testing Strategies | Yassi Theme Example</title><link rel=stylesheet href=/Profile/css/main.min.668eb28b05bb0817e49e198a8fd6db56620cbfbfe5bdd17442d099b12cc84205.css integrity="sha256-Zo6yiwW7CBfknhmKj9bbVmIMv7/lvdF0QtCZsSzIQgU=" crossorigin=anonymous><link rel=preconnect href=https://fonts.googleapis.com><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel=stylesheet><script src=/Profile/js/main.89f752ba9201e6c77d9acbb549b5a334a6e849da3421a82dedd4addeda093614.js integrity="sha256-ifdSupIB5sd9msu1SbWjNKboSdo0Iagt7dSt3toJNhQ=" crossorigin=anonymous></script></head><body class=site-wrapper><header><div class=header-wrapper><nav class=navbar role=navigation><div class=navbar-brand><a href=/>Yassi Theme Example</a></div><button class=navbar-toggle id=navbar-toggle aria-label="Toggle navigation">
+<span class=hamburger-line></span>
+<span class=hamburger-line></span>
+<span class=hamburger-line></span></button><div class=navbar-menu id=navbar-menu><div class=navbar-nav><nav><ul><li><a href=/Profile/about/>About</a></li><li><a href=/Profile/projects/>Projects</a></li><li><a href=/Profile/posts/>Posts</a></li><li><a href=/Profile/tags/>Tags</a></li><li><a href=/Profile/categories/>Categories</a></li></ul></nav><a href=/projects>Projects</a></div><div class=navbar-actions><button id=theme-toggle class=theme-toggle aria-label="Toggle dark mode">
+<svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="12" y1="21" x2="12" y2="23" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="1" y1="12" x2="3" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="21" y1="12" x2="23" y2="12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+<svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg></button></div></div></nav></div></header><main class=site-main><article class=post-article><header class=post-header><h1 class=post-title>Effective Testing Strategies</h1><div class=post-meta><time datetime=2024-03-20T00:00:00+00:00>March 20, 2024</time>
+<span class=post-meta-separator>•</span>
+<span>3 min read</span>
+<span class=post-meta-separator>•</span><div class=terms-wrapper><div class=terms-label>Categories:</div><ul class=terms-list><li class=terms-item><a href=/Profile/categories/development/>Development</a></li></ul></div><span class=post-meta-separator>•</span><div class=terms-wrapper><div class=terms-label>Tags:</div><ul class=terms-list><li class=terms-item><a href=/Profile/tags/testing/>Testing</a></li><li class=terms-item><a href=/Profile/tags/quality/>Quality</a></li><li class=terms-item><a href=/Profile/tags/best-practices/>Best-Practices</a></li></ul></div></div><p class=post-summary>Build confidence in your code with a comprehensive testing approach</p></header><div class=post-content><p>Good tests give you confidence to ship. Here&rsquo;s how to build an effective testing strategy.</p><h2 id=testing-pyramid>Testing Pyramid</h2><p>Balance different types of tests:</p><ul><li><strong>Unit Tests</strong> (70%) - Fast, isolated, many</li><li><strong>Integration Tests</strong> (20%) - Medium speed, combined components</li><li><strong>E2E Tests</strong> (10%) - Slow, full user flows, few</li></ul><h2 id=unit-testing>Unit Testing</h2><p>Test individual functions and components:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#75715e>// Function to test
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>add</span>(<span style=color:#a6e22e>a</span>, <span style=color:#a6e22e>b</span>) {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>a</span> <span style=color:#f92672>+</span> <span style=color:#a6e22e>b</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Test
+</span></span></span><span style=display:flex><span><span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;add&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;adds two numbers correctly&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>add</span>(<span style=color:#ae81ff>2</span>, <span style=color:#ae81ff>3</span>)).<span style=color:#a6e22e>toBe</span>(<span style=color:#ae81ff>5</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>add</span>(<span style=color:#f92672>-</span><span style=color:#ae81ff>1</span>, <span style=color:#ae81ff>1</span>)).<span style=color:#a6e22e>toBe</span>(<span style=color:#ae81ff>0</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>add</span>(<span style=color:#ae81ff>0</span>, <span style=color:#ae81ff>0</span>)).<span style=color:#a6e22e>toBe</span>(<span style=color:#ae81ff>0</span>);
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=integration-testing>Integration Testing</h2><p>Test component interactions:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;UserService&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;creates user and sends welcome email&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>user</span> <span style=color:#f92672>=</span> <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>userService</span>.<span style=color:#a6e22e>createUser</span>({
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>email</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;test@example.com&#39;</span>,
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>name</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;Test User&#39;</span>
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>user</span>).<span style=color:#a6e22e>toBeDefined</span>();
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>emailService</span>.<span style=color:#a6e22e>sent</span>).<span style=color:#a6e22e>toHaveLength</span>(<span style=color:#ae81ff>1</span>);
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>emailService</span>.<span style=color:#a6e22e>sent</span>[<span style=color:#ae81ff>0</span>].<span style=color:#a6e22e>to</span>).<span style=color:#a6e22e>toBe</span>(<span style=color:#e6db74>&#39;test@example.com&#39;</span>);
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=e2e-testing>E2E Testing</h2><p>Test complete user flows:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;Login Flow&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;allows user to login successfully&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>page</span>.<span style=color:#66d9ef>goto</span>(<span style=color:#e6db74>&#39;/login&#39;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>page</span>.<span style=color:#a6e22e>fill</span>(<span style=color:#e6db74>&#39;[name=email]&#39;</span>, <span style=color:#e6db74>&#39;user@example.com&#39;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>page</span>.<span style=color:#a6e22e>fill</span>(<span style=color:#e6db74>&#39;[name=password]&#39;</span>, <span style=color:#e6db74>&#39;password123&#39;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>page</span>.<span style=color:#a6e22e>click</span>(<span style=color:#e6db74>&#39;button[type=submit]&#39;</span>);
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>page</span>).<span style=color:#a6e22e>toHaveURL</span>(<span style=color:#e6db74>&#39;/dashboard&#39;</span>);
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>page</span>.<span style=color:#a6e22e>locator</span>(<span style=color:#e6db74>&#39;.welcome&#39;</span>)).<span style=color:#a6e22e>toContainText</span>(<span style=color:#e6db74>&#39;Welcome back&#39;</span>);
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=test-organization>Test Organization</h2><p>Structure tests clearly:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;Component/Feature&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;when condition&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;does expected behavior&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>      <span style=color:#75715e>// Arrange
+</span></span></span><span style=display:flex><span>      <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>input</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>setupTestData</span>();
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>      <span style=color:#75715e>// Act
+</span></span></span><span style=display:flex><span>      <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>result</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>performAction</span>(<span style=color:#a6e22e>input</span>);
+</span></span><span style=display:flex><span>      
+</span></span><span style=display:flex><span>      <span style=color:#75715e>// Assert
+</span></span></span><span style=display:flex><span>      <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>result</span>).<span style=color:#a6e22e>toEqual</span>(<span style=color:#a6e22e>expectedOutput</span>);
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=mocking>Mocking</h2><p>Isolate units under test:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#75715e>// Mock external dependencies
+</span></span></span><span style=display:flex><span><span style=color:#a6e22e>jest</span>.<span style=color:#a6e22e>mock</span>(<span style=color:#e6db74>&#39;./api&#39;</span>, () =&gt; ({
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fetchUser</span><span style=color:#f92672>:</span> <span style=color:#a6e22e>jest</span>.<span style=color:#a6e22e>fn</span>()
+</span></span><span style=display:flex><span>}));
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;UserProfile&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;displays user data&#39;</span>, <span style=color:#66d9ef>async</span> () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Setup mock
+</span></span></span><span style=display:flex><span>    <span style=color:#a6e22e>fetchUser</span>.<span style=color:#a6e22e>mockResolvedValue</span>({
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>name</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;John Doe&#39;</span>,
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>email</span><span style=color:#f92672>:</span> <span style=color:#e6db74>&#39;john@example.com&#39;</span>
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#75715e>// Test component
+</span></span></span><span style=display:flex><span>    <span style=color:#a6e22e>render</span>(<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>UserProfile</span> <span style=color:#a6e22e>userId</span><span style=color:#f92672>=</span><span style=color:#e6db74>&#34;123&#34;</span> <span style=color:#f92672>/&gt;</span>);
+</span></span><span style=display:flex><span>    
+</span></span><span style=display:flex><span>    <span style=color:#66d9ef>await</span> <span style=color:#a6e22e>waitFor</span>(() =&gt; {
+</span></span><span style=display:flex><span>      <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>screen</span>.<span style=color:#a6e22e>getByText</span>(<span style=color:#e6db74>&#39;John Doe&#39;</span>)).<span style=color:#a6e22e>toBeInTheDocument</span>();
+</span></span><span style=display:flex><span>    });
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=test-coverage>Test Coverage</h2><p>Aim for meaningful coverage:</p><ul><li>80%+ line coverage</li><li>100% critical path coverage</li><li>Focus on business logic</li><li>Don&rsquo;t test implementation details</li></ul><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-bash data-lang=bash><span style=display:flex><span><span style=color:#75715e># Generate coverage report</span>
+</span></span><span style=display:flex><span>npm test -- --coverage
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e># Set coverage thresholds</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>  <span style=color:#e6db74>&#34;jest&#34;</span>: <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>    <span style=color:#e6db74>&#34;coverageThreshold&#34;</span>: <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>      <span style=color:#e6db74>&#34;global&#34;</span>: <span style=color:#f92672>{</span>
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;branches&#34;</span>: 80,
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;functions&#34;</span>: 80,
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;lines&#34;</span>: 80,
+</span></span><span style=display:flex><span>        <span style=color:#e6db74>&#34;statements&#34;</span>: <span style=color:#ae81ff>80</span>
+</span></span><span style=display:flex><span>      <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span>  <span style=color:#f92672>}</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>}</span>
+</span></span></code></pre></div><h2 id=testing-best-practices>Testing Best Practices</h2><h3 id=write-testable-code>Write Testable Code</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#75715e>// Hard to test
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>processOrder</span>() {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>data</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>fetch</span>(<span style=color:#e6db74>&#39;/api/orders/123&#39;</span>); <span style=color:#75715e>// Direct dependency
+</span></span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>result</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>complex</span> <span style=color:#a6e22e>Processing</span>(<span style=color:#a6e22e>data</span>);
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>console</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>result</span>); <span style=color:#75715e>// Side effect
+</span></span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>result</span>;
+</span></span><span style=display:flex><span>}
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Easy to test
+</span></span></span><span style=display:flex><span><span style=color:#66d9ef>function</span> <span style=color:#a6e22e>processOrder</span>(<span style=color:#a6e22e>data</span>, <span style=color:#a6e22e>logger</span>) { <span style=color:#75715e>// Injected dependencies
+</span></span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>result</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>complexProcessing</span>(<span style=color:#a6e22e>data</span>);
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>logger</span>.<span style=color:#a6e22e>log</span>(<span style=color:#a6e22e>result</span>); <span style=color:#75715e>// Injected logger
+</span></span></span><span style=display:flex><span>  <span style=color:#66d9ef>return</span> <span style=color:#a6e22e>result</span>;
+</span></span><span style=display:flex><span>}
+</span></span></code></pre></div><h3 id=test-behavior-not-implementation>Test Behavior, Not Implementation</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#75715e>// Bad - tests implementation
+</span></span></span><span style=display:flex><span><span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;calls setState with new value&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>wrapper</span>.<span style=color:#a6e22e>instance</span>().<span style=color:#a6e22e>setState</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>jest</span>.<span style=color:#a6e22e>fn</span>();
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>wrapper</span>.<span style=color:#a6e22e>find</span>(<span style=color:#e6db74>&#39;button&#39;</span>).<span style=color:#a6e22e>simulate</span>(<span style=color:#e6db74>&#39;click&#39;</span>);
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>wrapper</span>.<span style=color:#a6e22e>instance</span>().<span style=color:#a6e22e>setState</span>).<span style=color:#a6e22e>toHaveBeenCalled</span>();
+</span></span><span style=display:flex><span>});
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#75715e>// Good - tests behavior
+</span></span></span><span style=display:flex><span><span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;increments counter when button clicked&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> { <span style=color:#a6e22e>getByText</span>, <span style=color:#a6e22e>getByRole</span> } <span style=color:#f92672>=</span> <span style=color:#a6e22e>render</span>(<span style=color:#f92672>&lt;</span><span style=color:#a6e22e>Counter</span> <span style=color:#f92672>/&gt;</span>);
+</span></span><span style=display:flex><span>  <span style=color:#66d9ef>const</span> <span style=color:#a6e22e>button</span> <span style=color:#f92672>=</span> <span style=color:#a6e22e>getByRole</span>(<span style=color:#e6db74>&#39;button&#39;</span>);
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>fireEvent</span>.<span style=color:#a6e22e>click</span>(<span style=color:#a6e22e>button</span>);
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>getByText</span>(<span style=color:#e6db74>&#39;Count: 1&#39;</span>)).<span style=color:#a6e22e>toBeInTheDocument</span>();
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h3 id=keep-tests-fast>Keep Tests Fast</h3><ul><li>Use in-memory databases</li><li>Mock external services</li><li>Parallelize test execution</li><li>Skip slow tests in watch mode</li></ul><h3 id=test-edge-cases>Test Edge Cases</h3><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-javascript data-lang=javascript><span style=display:flex><span><span style=color:#a6e22e>describe</span>(<span style=color:#e6db74>&#39;divide&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;handles normal cases&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>divide</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>2</span>)).<span style=color:#a6e22e>toBe</span>(<span style=color:#ae81ff>5</span>);
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;handles division by zero&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(() =&gt; <span style=color:#a6e22e>divide</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>0</span>)).<span style=color:#a6e22e>toThrow</span>();
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;handles negative numbers&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>divide</span>(<span style=color:#f92672>-</span><span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>2</span>)).<span style=color:#a6e22e>toBe</span>(<span style=color:#f92672>-</span><span style=color:#ae81ff>5</span>);
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>  
+</span></span><span style=display:flex><span>  <span style=color:#a6e22e>it</span>(<span style=color:#e6db74>&#39;handles decimal results&#39;</span>, () =&gt; {
+</span></span><span style=display:flex><span>    <span style=color:#a6e22e>expect</span>(<span style=color:#a6e22e>divide</span>(<span style=color:#ae81ff>10</span>, <span style=color:#ae81ff>3</span>)).<span style=color:#a6e22e>toBeCloseTo</span>(<span style=color:#ae81ff>3.33</span>, <span style=color:#ae81ff>2</span>);
+</span></span><span style=display:flex><span>  });
+</span></span><span style=display:flex><span>});
+</span></span></code></pre></div><h2 id=cicd-integration>CI/CD Integration</h2><p>Run tests automatically:</p><div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-yaml data-lang=yaml><span style=display:flex><span><span style=color:#75715e># GitHub Actions</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>name</span>: <span style=color:#ae81ff>Tests</span>
+</span></span><span style=display:flex><span><span style=color:#f92672>on</span>: [<span style=color:#ae81ff>push, pull_request]</span>
+</span></span><span style=display:flex><span>
+</span></span><span style=display:flex><span><span style=color:#f92672>jobs</span>:
+</span></span><span style=display:flex><span>  <span style=color:#f92672>test</span>:
+</span></span><span style=display:flex><span>    <span style=color:#f92672>runs-on</span>: <span style=color:#ae81ff>ubuntu-latest</span>
+</span></span><span style=display:flex><span>    <span style=color:#f92672>steps</span>:
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>actions/checkout@v2</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>uses</span>: <span style=color:#ae81ff>actions/setup-node@v2</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>run</span>: <span style=color:#ae81ff>npm ci</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>run</span>: <span style=color:#ae81ff>npm test</span>
+</span></span><span style=display:flex><span>      - <span style=color:#f92672>run</span>: <span style=color:#ae81ff>npm run test:e2e</span>
+</span></span></code></pre></div><p>Good tests are an investment. They catch bugs early, enable refactoring, and serve as documentation. Start simple and build your testing practice gradually.</p></div></article></main><footer class=site-footer><p align=center class=copyright>Yassi Theme Example © 2026. All rights reserved.</p></footer></body></html>
