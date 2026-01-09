@@ -26,7 +26,7 @@ jobs:
       - name: Build
         # working-directory: docs # docs以下にsiteをおいた場合
         run: hugo --minify
-        ls -R
+        commands: ls -R
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
