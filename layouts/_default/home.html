@@ -134,6 +134,61 @@
   </section>
   {{ end }}
 
+    <!-- Technical Projects Section -->
+  {{ $technicalProjects := where site.RegularPages "Section" "technical" }}
+  {{ $technicalProjects = where $technicalProjects "Params.featured" true }}
+  {{ $technicalProjects = $technicalProjects.ByParam "weight" }}
+  {{ if $technicalProjects }}
+  <section class="featured-section">
+    <!-- Carousel Layout -->
+    <div class="featured-header">
+      <h2 class="featured-title">技術作品</h2>
+    </div>
+    <div class="carousel-container">
+      <div class="technical-carousel">
+        {{ range $technicalProjects }}
+        <article class="featured-card">
+          {{ $projectUrl := .RelPermalink }}
+          {{ $isExternal := false }}
+          {{ if .Params.project_url }}
+          {{ $projectUrl = .Params.project_url }}
+          {{ $isExternal = true }}
+          {{ end }}
+          <a href="{{ $projectUrl }}" {{ if $isExternal }}target="_blank" rel="noopener noreferrer" {{ end }}>
+            <!-- カードイメージがあったら -->
+            {{ if .Params.main_image }}
+            <div class="featured-image" style="background-image: url('{{ .Params.main_image }}');">
+              <div class="featured-overlay">
+                <!-- カードタイトル -->
+                <h3 class="featured-card-title">
+                  {{ .Title }}
+                  {{ if $isExternal }}<span class="external-link-icon">↗</span>{{ end }} <!-- カードタイトルの矢印 -->
+                </h3>
+              </div>
+            </div>
+            <!-- カードイメージがなかったら -->
+            {{ else }}
+            <div class="featured-image featured-no-image">
+              <div class="featured-overlay">
+                <!-- カードタイトル -->
+                <h3 class="featured-card-title">
+                  {{ .Title }}
+                  {{ if $isExternal }}<span class="external-link-icon">↗</span>{{ end }} <!-- カードタイトルの矢印 -->
+                </h3>
+              </div>
+            </div>
+            {{ end }}
+            {{ if .Params.summary }}
+            <p class="featured-summary">{{ .Params.summary }}</p>
+            {{ end }}
+          </a>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+
   <!-- Featured Projects Section -->
   {{ $projects := where site.RegularPages "Section" "projects" }}
   {{ $projects = where $projects "Params.featured" true }}
