@@ -1082,6 +1082,20 @@ h2 {
   min-width: calc(33.333% - 14px);
 }
 
+/*Unreal*/
+.tunreal-carousel {
+  display: flex;
+  gap: 20px;
+  transition: transform 0.4s ease;
+  scroll-behavior: smooth;
+  padding-top: 10px;
+}
+
+.unreal-carousel .featured-card {
+  flex: 0 0 calc(33.333% - 14px);
+  min-width: calc(33.333% - 14px);
+}
+
 /*Featured*/
 .featured-carousel {
   display: flex;
