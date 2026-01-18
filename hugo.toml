@@ -6,7 +6,7 @@ theme = "yassi"
 buildFuture = true
 
 [params]
-  CoverImage = "/images/avatar.svg"
+  CoverImage = "images/avatar.png"
   CoverImageWidth = 150
   
   # Theme Colors

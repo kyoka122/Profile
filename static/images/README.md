@@ -28,7 +28,7 @@ In `hugo.toml`:
 
 ```toml
 [params]
-  CoverImage = "/images/avatar.png"
+  CoverImage = "images/avatar.png"
 ```
 
 ## Included Images

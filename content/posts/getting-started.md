@@ -32,7 +32,7 @@ Set your profile or brand image:
 
 ```toml
 [params]
-  CoverImage = "/images/avatar.png"
+  CoverImage = "images/avatar.png"
   CoverImageWidth = 150
 ```
 
