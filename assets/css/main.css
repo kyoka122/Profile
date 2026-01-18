@@ -571,7 +571,8 @@ a {
 }
 
 .post-summary {
-  font-size: 1.3em;
+  white-space: pre-wrap;
+  font-size: 1em;
   line-height: 1.6;
   color: var(--text-tertiary);
   font-style: italic;
