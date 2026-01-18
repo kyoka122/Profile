@@ -56,36 +56,6 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-document.addEventListener('DOMContentLoaded', function () {
-    const carousel = document.querySelector('.pickup-carousel');
-    //const prevBtn = document.querySelector('.carousel-btn-prev');
-    //const nextBtn = document.querySelector('.carousel-btn-next');
-
-    //if (!carousel || !prevBtn || !nextBtn) return;
-    if (!carouseln) return;
-    const cards = carousel.querySelectorAll('.pickup-card');
-    const cardCount = cards.length;
-    let currentIndex = 0;
-
-    function updateCarousel() {
-        const cardWidth = cards[0].offsetWidth;
-        const gap = 20;
-        const offset = currentIndex * (cardWidth + gap);
-        carousel.style.transform = `translateX(-${offset}px)`;
-
-        // Update button states
-        prevBtn.disabled = currentIndex === 0;
-        nextBtn.disabled = currentIndex >= cardCount - 3;
-    }
-
-    // Update on window resize
-    window.addEventListener('resize', updateCarousel);
-
-    // Initial state
-    updateCarousel();
-});
-
-
 // Carousel functionality
 document.addEventListener('DOMContentLoaded', function () {
     const carousel = document.querySelector('.featured-carousel');
