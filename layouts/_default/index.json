@@ -1,4 +1,4 @@
-{{- $pages := where site.RegularPages "Type" "in" (slice "posts" "projects") -}}
+{{- $pages := where site.RegularPages "Type" "in" (slice "posts" "projects" "pickup" "technical" "unreal") -}}
 {{- $data := slice -}}
 {{- range $pages -}}
   {{- $content := .Plain | truncate 500 -}}
