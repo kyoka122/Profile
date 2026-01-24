@@ -3,12 +3,12 @@
   <h1>{{ .Title }}</h1>
 
   <p class="term-description">
-    {{ .Params.description | default (printf "%d posts tagged with \"%s\"" (len .Pages) .Title) }}
+    {{ .Params.description | default (printf "%d projects tagged with \"%s\"" (len .Pages) .Title) }}
   </p>
 
   <!-- Posts List -->
-  {{ $filteredPages := where .Pages "Section" "!=" "projects" }}
-  {{ $projectsInList := where (where .Pages "Section" "projects") "Params.showInPostList" true }}
+  {{ $filteredPages := where .Pages "Section" "!=" "" }}
+  {{ $projectsInList := where (where .Pages "Section" "in" (slice "projects" "pickup" "unreal" "technical")) "Params.showInPostList" true }}
   {{ $allPages := union $filteredPages $projectsInList }}
   {{ $sortedPages := $allPages.ByDate.Reverse }}
   {{ if $sortedPages }}
@@ -18,12 +18,15 @@
       <a href="{{ .RelPermalink }}" class="home-list-link">
         <span class="home-list-date">{{ .Date | time.Format ":date_medium" }}</span>
         {{ if .Params.main_image }}
-        <div class="home-list-image" style="background-image: url('{{ .Params.main_image }}');"></div>
+        <div class="home-list-image" style="background-image: url('../../static/{{ .Params.main_image }}');"></div>
         {{ end }}
         <div class="home-list-content">
           <div class="home-list-meta">
-            {{ if eq .Section "projects" }}
+            {{ if in (slice "projects" "pickup") .Section }}
             <span class="home-list-project-badge">PROJECT</span>
+            {{ end }}
+            {{ if in (slice "technical") .Section }}
+            <span class="home-list-technical-badge">TECHNICAL</span>
             {{ end }}
             <span class="home-list-duration">{{ .ReadingTime }} min read</span>
           </div>

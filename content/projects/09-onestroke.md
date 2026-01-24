@@ -6,7 +6,6 @@ featured = true
 weight = 0
 tags = ["3D", "パズル", "XR", "HoloLens2", "個人開発"]
 categories = ["ゲーム"]
-main_image = "images/"
 +++
 
 Build complex forms without code using our intuitive drag-and-drop form builder.
