@@ -343,8 +343,10 @@
   {{ end }}
 
   <!-- Blog Posts List -->
-  {{ $posts := where site.RegularPages "Section" "posts" }}
-  {{ $projectsInList := where (where site.RegularPages "Section" "projects") "Params.showInPostList" true }}
+   
+
+  {{ $posts := where site.RegularPages "Section" "in" (slice "projects" "pickup" "unreal" "technical") }}
+  {{ $projectsInList := where (where .Pages "Section" "in" (slice "projects" "pickup" "unreal" "technical")) "Params.showInPostList" true }}
   {{ $allPosts := union $posts $projectsInList }}
   {{ $sortedPosts := $allPosts.ByDate.Reverse }}
   {{ if $sortedPosts }}
@@ -358,11 +360,22 @@
           <span class="home-list-date">{{ .Date | time.Format ":date_medium" }}</span>
           {{ if .Params.main_image }}
           <div class="home-list-image" style="background-image: url('{{ .Params.main_image }}');"></div>
+          {{ else }}
+          <div class="home-list-image featured-no-image">
+            <div class="featured-overlay">
+              <h3 class="featured-card-title">
+                {{ .Title }}
+              </h3>
+            </div>
+          </div>
           {{ end }}
           <div class="home-list-content">
             <div class="home-list-meta">
               {{ if eq .Section "projects" }}
               <span class="home-list-project-badge">PROJECT</span>
+              {{ end }}
+              {{ if in (slice "technical") .Section }}
+              <span class="home-list-technical-badge">TECHNICAL</span>
               {{ end }}
               <span class="home-list-duration">{{.ReadingTime }} min read</span>
             </div>
