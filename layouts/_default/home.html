@@ -253,7 +253,7 @@
     {{ if site.Params.useProjectCarousel }}
     <!-- Carousel Layout -->
     <div class="featured-header">
-      <h2 class="featured-title">その他の作品</h2>
+      <h2 class="featured-title">その他の作品 (9作品)</h2>
       <div class="carousel-controls">
         <button class="carousel-btn carousel-btn-prev" aria-label="Previous">‹</button>
         <button class="carousel-btn carousel-btn-next" aria-label="Next">›</button>
@@ -349,7 +349,7 @@
   {{ $sortedPosts := $allPosts.ByDate.Reverse }}
   {{ if $sortedPosts }}
   <section class="posts-section">
-    <h2 class="featured-title">POSTS</h2>
+    <h2 class="featured-title">開発履歴</h2>
 
     <ul class="home-list">
       {{ range $sortedPosts }}
@@ -368,7 +368,7 @@
             </div>
             <h3 class="home-list-title">{{.LinkTitle}}</h3>
             {{ if .Summary }}
-            <p class="home-list-summary">{{ .Summary }}</p>
+            <div class="home-list-summary">{{ .Summary }}</div>
             {{ end }}
             {{ with .GetTerms "categories" }}
             <div class="home-list-tags">

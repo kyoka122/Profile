@@ -1,11 +1,12 @@
 +++
 title = "南極大陸探検隊"
-date = 2024-01-05
-summary = "A fast and flexible static site generator built with Go"
+date = 2021-03-01
+summary = "ジャンル:　3DダンジョンRPG\nプレイ人数:　1人\n開発時期:　2021年3月～2022年2月（1年）\n開発人数:　5人"
 featured = true
 weight = 2
-tags = ["3D", "ダンジョン", "多人数プレイ", "オンライン"]
+tags = ["3D", "ダンジョン", "多人数プレイ", "オンライン", "チーム開発"]
 categories = ["ゲーム"]
+main_image = "images/nankyoku.gif"
 +++
 
 A custom static site generator that prioritizes speed and simplicity. Built in Go for maximum performance.

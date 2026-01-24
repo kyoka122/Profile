@@ -1,11 +1,11 @@
 +++
 title = "ラスタライズ法を用いた面積計算"
 date = 2024-01-10
-summary = "3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算を作成。"
+summary = "3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算を作成。\n開発人数:　1人\n開発時期:　2023年月~月(ヶ月)"
 featured = true
 weight = 3
 tags = ["markdown", "editor", "productivity"]
-categories = ["ツール"]
+categories = ["ツール", "個人開発"]
 +++
 
 A minimal markdown editor designed for focused writing. Built with modern web technologies for a smooth, native-like experience.

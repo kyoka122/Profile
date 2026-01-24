@@ -1,11 +1,12 @@
 +++
 title = "SAKURA SPACE"
-date = 2024-01-16
-summary = "Share and discover useful code snippets with syntax highlighting and search"
+date = 2021-04-01
+summary =  "ジャンル:　3Dシューティングゲーム\nプレイ人数:　1人～\n開発時期:　2021年4月～7月（3ヶ月）\n開発人数:　1人"
 featured = true
 weight = 7
-tags = ["vue", "search", "code"]
-categories = ["Tools"]
+tags = ["3D", "シューティング", "多人数プレイ", "オンライン", "個人開発"]
+categories = ["ゲーム"]
+main_image = "images/sakura_space.gif"
 +++
 
 A platform for developers to share, discover, and organize code snippets.

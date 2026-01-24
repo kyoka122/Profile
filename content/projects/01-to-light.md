@@ -1,10 +1,10 @@
 +++
 title = "ToLight(未完成)"
-date = 2024-01-14
-summary =  "ジャンル:　3Dアクション\nプレイ人数:　1人\n開発時期:　202年月~202年月(年)"
+date = 2022-04-01
+summary =  "ジャンル:　3Dアクションゲーム\nプレイ人数:　1人\n開発時期:　2022年4月～8月（5ヶ月）\n開発人数:　4人"
 featured = true
 weight = 1
-tags = ["3D", "アクション"]
+tags = ["3D", "アクション", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/toLight.gif"
 +++

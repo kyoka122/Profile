@@ -1,11 +1,12 @@
 +++
 title = "3D一筆書きゲームの作成補助ツール"
 date = 2024-01-05
-summary = "3D一筆書きを作成する際、点と点(球と球)を結ぶ線(円柱)オブジェクトを自動で配置するツールを作成しました。"
+summary = "3D一筆書きを作成するため、点と点(球と球)を結ぶ線(円柱)オブジェクトを自動で配置するツールを作成。\n開発人数:　1人\n開発時期:　2023年月~月(ヶ月)"
 featured = true
 weight = 2
 tags = ["go", "static-site", "tool"]
-categories = ["ツール"]
+categories = ["ツール", "個人開発"]
+main_image = "images/one_stroke_tool.gif"
 +++
 
 A custom static site generator that prioritizes speed and simplicity. Built in Go for maximum performance.

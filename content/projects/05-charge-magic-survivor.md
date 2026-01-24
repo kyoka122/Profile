@@ -1,11 +1,12 @@
 +++
 title = "Charge Magic Survivour"
-date = 2024-01-30
-summary = "A comprehensive design system with React components, tokens, and documentation"
+date = 2022-09-01
+summary = "ジャンル:　2D シューティングアクション\nプレイ人数:　1人\n開発時期:　2022年9月（1週間）\n開発人数:　3人"
 featured = true
 weight = 5
-tags = ["design-system", "react", "components", "storybook"]
-categories = ["Design"]
+tags = ["2D", "シューティング", "アクション", "ゲームジャム", "チーム開発"]
+categories = ["ゲーム"]
+main_image = "images/charge_magic.gif"
 +++
 
 A complete design system providing consistent components, patterns, and guidelines.

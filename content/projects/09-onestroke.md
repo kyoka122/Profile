@@ -1,12 +1,12 @@
 +++
-title = "Destroy Planet"
-date = 2020-09-01
-summary =  "ジャンル:　3Dパズルゲーム\nプレイ人数:　1～2人\n開発時期:　2020年9月～11月（3ヶ月）\n開発人数:　2人"
+title = "3D一筆書き"
+date = 2023-09-01
+summary =  "ジャンル:　3Dパズルゲーム\nプレイ人数:　1人\n開発時期:　2023年9月～12月（4ヶ月）\n開発人数:　1人"
 featured = true
-weight = 8
-tags = ["3D", "パズル", "多人数プレイ", "オンライン", "チーム開発"]
+weight = 0
+tags = ["3D", "パズル", "XR", "HoloLens2", "個人開発"]
 categories = ["ゲーム"]
-main_image = "images/destroy_planet.png"
+main_image = "images/"
 +++
 
 Build complex forms without code using our intuitive drag-and-drop form builder.

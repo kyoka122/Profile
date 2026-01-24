@@ -1,11 +1,12 @@
 +++
-title = "FadeCity"
-date = 2024-01-10
-summary = "A distraction-free markdown editor with live preview and syntax highlighting"
+title = "FadeCity(未完成)"
+date = 2021-12-01
+summary =  "ジャンル:　3Dアクションゲーム\nプレイ人数:　1人\n開発時期:　2021年12月～2022年3月（3ヶ月）\n開発人数:　7人"
 featured = true
 weight = 6
-tags = ["markdown", "editor", "productivity"]
-categories = ["Tools"]
+tags = ["3D", "アクション", "チーム開発"]
+categories = ["ゲーム"]
+main_image = "images/fade_city.png"
 +++
 
 A minimal markdown editor designed for focused writing. Built with modern web technologies for a smooth, native-like experience.

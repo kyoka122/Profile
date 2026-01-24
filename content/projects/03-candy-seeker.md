@@ -1,11 +1,12 @@
 +++
 title = "CandySeeker"
-date = 2024-01-28
-summary = "Monitor servers, applications, and services with real-time alerts and dashboards"
+date = 2021-01-01
+summary = "ジャンル:　2D パズルゲーム\nプレイ人数:　1人\n開発時期:　2021年1月～3月（3ヶ月）\n開発人数:　1人"
 featured = true
 weight = 3
-tags = ["monitoring", "devops", "alerting"]
-categories = ["DevOps"]
+tags = ["2D", "パズル", "多人数プレイ", "オンライン", "個人開発"]
+categories = ["ゲーム"]
+main_image = "images/candy_seeker.gif"
 +++
 
 A comprehensive monitoring solution for tracking infrastructure health and performance.
