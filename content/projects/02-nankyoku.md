@@ -7,17 +7,13 @@ weight = 2
 tags = ["3D", "ダンジョン", "多人数プレイ", "オンライン", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/nankyoku.gif"
+intro_title = "ゲーム概要"
+intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プラットフォーム：　Windows\n・ 開発人数：　5人\n・ 開発時期：　2021年3月～2022年2月（1年）\n・ 開発ツール：　Unity (C#), Photon, UniRx, UniTask\n・ 担当箇所：　プログラム、UIデザイン、マルチプレイ実装"
 +++
 
 A custom static site generator that prioritizes speed and simplicity. Built in Go for maximum performance.
 
 ## ゲーム概要
-- ゲームジャンル：　3DダンジョンRPG
-- プラットフォーム：　Windows
-- 開発人数：　5人
-- 開発時期：　2021年3月～2022年2月（1年）
-- 開発ツール：　Unity (C#), Photon, UniRx, UniTask
-- 担当箇所：　プログラム、UIデザイン、マルチプレイ実装
 
 
 ## Usage

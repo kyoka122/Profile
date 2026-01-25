@@ -19,16 +19,29 @@
       {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
       {{ end }}
     </div>
-    {{ if .Summary }}
+    <!--{{ if .Summary }}
     <p class="post-summary">{{.Summary}}</p>
-    {{ end }}
+    {{ end }}-->
   </header>
 
-  {{ if .Params.main_image }}
-  <div class="post-image">
-    <img src="{{ .Params.main_image }}" alt="{{ .Title }}">
+  
+  
+  <div class="post-intro">
+    {{ if .Params.main_image }}
+    <div class="post-image">
+      <img src="{{ .Params.main_image | relURL}}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+    <div class="post-intro-text">
+      {{ if .Params.intro_title }}
+      <p class="post-intro-title">{{.Params.intro_title}}</p>
+      {{ end }}
+      {{ if .Params.intro_summary}}
+      <p class="post-intro-summary">{{.Params.intro_summary | markdownify}}</p>
+      {{ end }}
+    </div>
   </div>
-  {{ end }}
+  
 
   <div class="post-content">
     {{ .Content }}

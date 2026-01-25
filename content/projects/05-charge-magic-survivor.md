@@ -7,19 +7,14 @@ weight = 5
 tags = ["2D", "シューティング", "アクション", "ゲームジャム", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/charge_magic.gif"
+intro_title = "ゲーム概要"
+intro_summary = "・ ゲームジャンル：　2Dシューティングアクション\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　3人\n・ 開発時期：　2022年9月（1週間）(Unity1weekのゲームジャムイベント)\n・ 開発ツール：　Unity (C#), Unity, UniRx, UniTask\n・ 担当箇所：　プログラム (キャラの移動や)\n・ ゲームジャムのお題:　ためる\n・ プレイ用URL： https://unityroom.com/games/chargemagic"
 +++
 
 A complete design system providing consistent components, patterns, and guidelines.
 
 ## ゲーム概要
-- ゲームジャンル：　2Dシューティングアクション
-- プラットフォーム：　WebGL, Windows
-- 開発人数：　3人
-- 開発期間：　2022年9月（1週間）(Unity1weekのゲームジャムイベント)
-- 開発ツール：　Unity (C#), Unity, UniRx, UniTask
-- 担当箇所：　プログラム (キャラの移動や)
-- ゲームジャムのお題:　ためる
-- プレイ用URL： https://unityroom.com/games/chargemagic
+- 
 
 ## Design Tokens
 

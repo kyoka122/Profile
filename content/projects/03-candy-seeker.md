@@ -7,16 +7,13 @@ weight = 3
 tags = ["2D", "パズル", "多人数プレイ", "オンライン", "個人開発"]
 categories = ["ゲーム"]
 main_image = "images/candy_seeker.gif"
+intro_title = "ゲーム概要"
+intro_summary = "・ ゲームジャンル：　2Dオンラインパズルゲーム\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　1人\n・ 開発時期：　2021年1月～3月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon\nプレイ用URL： https://unityroom.com/games/candyseeker"
 +++
 
 
 ## ゲーム概要
-- ゲームジャンル：　2Dオンラインパズルゲーム
-- プラットフォーム：　WebGL, Windows
-- 開発人数：　1人
-- 開発時期：　2021年1月～3月（3ヶ月）
-- 開発ツール：　Unity (C#), Photon
-- プレイ用URL：　https://unityroom.com/games/candyseeker
+- プレイ用URL： https://unityroom.com/games/candyseeker
 <!-- - プロジェクトリポジトリ：https://github.com/kyoka122/CandySeeker_kyoka2 -->
 
 ### Application Metrics

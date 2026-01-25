@@ -6,17 +6,14 @@ featured = true
 weight = 0
 tags = ["3D", "パズル", "XR", "HoloLens2", "個人開発"]
 categories = ["ゲーム"]
+intro_title = "ゲーム概要"
+intro_summary = "・ゲームジャンル：　3Dパズルゲーム\n・プラットフォーム：　Windows, HoloLens2 \n・開発人数：　1人\n・開発時期：　2023年9月～12月（4ヶ月）\n・開発ツール：　Unity (C#), MRTK, UniRx, UniTask\n・担当箇所：　プログラム、PCとHoloLens2の両プラットフォームの対応"
 +++
 
 Build complex forms without code using our intuitive drag-and-drop form builder.
 
 ## ゲーム概要
-- ゲームジャンル：　3Dパズルゲーム
-- プラットフォーム：　Windows, HoloLens2 
-- 開発人数：　1人
-- 開発時期：　2023年9月～12月（4ヶ月）
-- 開発ツール：　Unity (C#), MRTK, UniRx, UniTask
-- 担当箇所：　プログラム、PCとHoloLens2の両プラットフォームの対応
+- 
 
 
 ### Form Building

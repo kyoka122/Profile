@@ -7,19 +7,13 @@ weight = 1
 tags = ["3D", "アクション", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/toLight.gif"
+intro_title = "ゲーム概要"
+intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ プラットフォーム：　Windows\n・  キャッチコピー：　君が恐れるな\n・ 開発人数：　4人\n・ 開発時期：　2022年4月～8月（5ヶ月）\n・ 開発ツール：　Unity (C#), UniRx, UniTask等\n・ 担当箇所：　プログラム"
 +++
 
-A modern task management application built for teams and individuals.
 
 ## ゲーム概要
 
-- ゲームジャンル：　3Dアクションゲーム
-- プラットフォーム：　Windows
-- キャッチコピー：　君が恐れるな
-- 開発人数：　4人
-- 開発時期：　2022年4月～8月（5ヶ月）
-- 開発ツール：　Unity (C#), UniRx, UniTask等
-- 担当箇所：　プログラム
 
 
 ## デモ動画

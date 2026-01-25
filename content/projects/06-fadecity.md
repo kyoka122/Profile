@@ -7,17 +7,14 @@ weight = 6
 tags = ["3D", "アクション", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/fade_city.png"
+intro_title = "ゲーム概要"
+intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ プラットフォーム：　Windows\n・ 開発人数：　7人\n・ 開発時期：　2021年12月～2022年3月（3ヶ月）（完成度90%）\n・ 開発ツール：　Unity (C#), UniRx, UniTask\n・ 担当箇所：　ディレクタ―、プランナ、プログラマ"
 +++
 
 A minimal markdown editor designed for focused writing. Built with modern web technologies for a smooth, native-like experience.
 
 ## ゲーム概要
-- ゲームジャンル：　3Dアクションゲーム
-- プラットフォーム：　Windows
-- 開発人数：　7人
-- 開発時期：　2021年12月～2022年3月（3ヶ月）（完成度90%）
-- 開発ツール：　Unity (C#), UniRx, UniTask
-- 担当箇所：　ディレクタ―、プランナ、プログラマ
+- 
 
 
 ### Customization

@@ -7,19 +7,13 @@ weight = 8
 tags = ["3D", "パズル", "多人数プレイ", "オンライン", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/destroy_planet.png"
+intro_title = "ゲーム概要"
+intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プラットフォーム：　Windows\n・ 開発人数：　2人\n・ 開発時期：　2020年9月～11月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon\n・ 担当箇所：　UI周りのプログラム、モデル作成、マルチプレイ実装\n・ プレイ用URL： https://unityroom.com/games/tducc_dp"
 +++
-
-Build complex forms without code using our intuitive drag-and-drop form builder.
 
 
 ## ゲーム概要
-- ゲームジャンル：　3Dパズルゲーム
-- プラットフォーム：　Windows
-- 開発人数：　2人
-- 開発時期：　2020年9月～11月（3ヶ月）
-- 開発ツール：　Unity (C#), Photon
-- 担当箇所：　UI周りのプログラム、モデル作成、マルチプレイ実装
-- プレイ用URL：　https://unityroom.com/games/tducc_dp
+- 
 
 ### Field Types
 

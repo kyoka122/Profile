@@ -7,6 +7,7 @@ weight = 2
 tags = ["ツール", "個人開発"]
 categories = ["ツール"]
 main_image = "images/one_stroke_tool.gif"
+intro=""
 +++
 
 A custom static site generator that prioritizes speed and simplicity. Built in Go for maximum performance.
