@@ -11,17 +11,15 @@ main_image = "images/charge_magic.gif"
 
 A complete design system providing consistent components, patterns, and guidelines.
 
-## Components
-
-50+ production-ready components:
-- Buttons
-- Forms
-- Navigation
-- Modals
-- Cards
-- Tables
-- Charts
-- Icons
+## ゲーム概要
+- ゲームジャンル：　2Dシューティングアクション
+- プラットフォーム：　WebGL, Windows
+- 開発人数：　3人
+- 開発期間：　2022年9月（1週間）(Unity1weekのゲームジャムイベント)
+- 開発ツール：　Unity (C#), Unity, UniRx, UniTask
+- 担当箇所：　プログラム (キャラの移動や)
+- ゲームジャムのお題:　ためる
+- プレイ用URL： https://unityroom.com/games/chargemagic
 
 ## Design Tokens
 

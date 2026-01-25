@@ -1,7 +1,7 @@
 +++
 title = "CandySeeker"
 date = 2021-01-01
-summary = "ジャンル:　2D パズルゲーム\nプレイ人数:　1人\n開発時期:　2021年1月～3月（3ヶ月）\n開発人数:　1人"
+summary = "ジャンル:　2Dオンラインパズルゲーム\nプレイ人数:　1人\n開発時期:　2021年1月～3月（3ヶ月）\n開発人数:　1人"
 featured = true
 weight = 3
 tags = ["2D", "パズル", "多人数プレイ", "オンライン", "個人開発"]
@@ -9,18 +9,15 @@ categories = ["ゲーム"]
 main_image = "images/candy_seeker.gif"
 +++
 
-A comprehensive monitoring solution for tracking infrastructure health and performance.
 
-## Monitoring
-
-### Server Metrics
-
-- CPU usage
-- Memory usage
-- Disk space
-- Network traffic
-- Process monitoring
-- System logs
+## ゲーム概要
+- ゲームジャンル：　2Dオンラインパズルゲーム
+- プラットフォーム：　WebGL, Windows
+- 開発人数：　1人
+- 開発時期：　2021年1月～3月（3ヶ月）
+- 開発ツール：　Unity (C#), Photon
+- プレイ用URL：　https://unityroom.com/games/candyseeker
+<!-- - プロジェクトリポジトリ：https://github.com/kyoka122/CandySeeker_kyoka2 -->
 
 ### Application Metrics
 

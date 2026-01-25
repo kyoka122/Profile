@@ -11,22 +11,14 @@ main_image = "images/nankyoku.gif"
 
 A custom static site generator that prioritizes speed and simplicity. Built in Go for maximum performance.
 
-## Key Features
+## ゲーム概要
+- ゲームジャンル：　3DダンジョンRPG
+- プラットフォーム：　Windows
+- 開発人数：　5人
+- 開発時期：　2021年3月～2022年2月（1年）
+- 開発ツール：　Unity (C#), Photon, UniRx, UniTask
+- 担当箇所：　プログラム、UIデザイン、マルチプレイ実装
 
-- Lightning-fast build times
-- Markdown support with custom extensions
-- Template system with inheritance
-- Asset pipeline for CSS and JavaScript
-- Live reload during development
-- Flexible plugin system
-
-## Why Another Generator?
-
-While existing tools are great, this project explores alternative approaches to content transformation and focuses on minimalism and speed.
-
-## Performance
-
-Builds a 1000-page site in under 200ms on average hardware. Uses parallel processing and smart caching.
 
 ## Usage
 

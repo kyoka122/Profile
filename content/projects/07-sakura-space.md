@@ -11,16 +11,13 @@ main_image = "images/sakura_space.gif"
 
 A platform for developers to share, discover, and organize code snippets.
 
-## Features
-
-- Save and categorize code snippets
-- Syntax highlighting for 100+ languages
-- Full-text search
-- Tag-based organization
-- Public and private snippets
-- Embed snippets in blogs
-- Copy to clipboard
-- Dark mode support
+## ゲーム概要
+- ゲームジャンル：　3Dシューティングゲーム
+- プラットフォーム：　Windows
+- 開発人数：　1人
+- 開発時期：　2021年4月～7月（3ヶ月）
+- 開発ツール：　Unity (C#), Photon, UniTask
+- 担当箇所：　プログラム、UIデザイン、3Dモデル作成、マルチプレイ実装
 
 ## Technology
 

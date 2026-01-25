@@ -16,9 +16,11 @@ A modern task management application built for teams and individuals.
 - ゲームジャンル：　3Dアクションゲーム
 - プラットフォーム：　Windows
 - キャッチコピー：　君が恐れるな
-- 制作人数：　4人
+- 開発人数：　4人
+- 開発時期：　2022年4月～8月（5ヶ月）
+- 開発ツール：　Unity (C#), UniRx, UniTask等
 - 担当箇所：　プログラム
-- 開発ツール：　Unity (C#)
+
 
 ## デモ動画
 
@@ -26,19 +28,3 @@ A modern task management application built for teams and individuals.
 ### あらすじ
 
 学校でいじめられている男の子が夢の中でいじめに立ち向かおうとしています。プレイヤーであるあなたが光となって導いてください。
-
-### Intuitive UI
-
-Drag-and-drop interface makes task organization effortless.
-
-### Mobile Responsive
-
-Works seamlessly on desktop, tablet, and mobile devices.
-
-## Future Plans
-
-- Mobile native apps
-- Calendar integration
-- Time tracking
-- Reporting and analytics
-- API for third-party integrations

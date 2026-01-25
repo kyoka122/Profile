@@ -11,18 +11,15 @@ main_image = "images/destroy_planet.png"
 
 Build complex forms without code using our intuitive drag-and-drop form builder.
 
-## Features
 
-### Form Building
-
-- Drag-and-drop interface
-- 20+ field types
-- Conditional logic
-- Multi-step forms
-- File uploads
-- E-signatures
-- Payment integration
-- Calculations
+## ゲーム概要
+- ゲームジャンル：　3Dパズルゲーム
+- プラットフォーム：　Windows
+- 開発人数：　2人
+- 開発時期：　2020年9月～11月（3ヶ月）
+- 開発ツール：　Unity (C#), Photon
+- 担当箇所：　UI周りのプログラム、モデル作成、マルチプレイ実装
+- プレイ用URL：　https://unityroom.com/games/tducc_dp
 
 ### Field Types
 

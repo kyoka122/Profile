@@ -11,26 +11,14 @@ main_image = "images/fade_city.png"
 
 A minimal markdown editor designed for focused writing. Built with modern web technologies for a smooth, native-like experience.
 
-## Features
+## ゲーム概要
+- ゲームジャンル：　3Dアクションゲーム
+- プラットフォーム：　Windows
+- 開発人数：　7人
+- 開発時期：　2021年12月～2022年3月（3ヶ月）（完成度90%）
+- 開発ツール：　Unity (C#), UniRx, UniTask
+- 担当箇所：　ディレクタ―、プランナ、プログラマ
 
-### Distraction-Free Mode
-
-Full-screen mode that hides all UI elements except your text. Perfect for deep focus writing sessions.
-
-### Live Preview
-
-See your formatted markdown in real-time with a side-by-side preview pane. The preview scrolls in sync with your editing.
-
-### Syntax Highlighting
-
-Code blocks are beautifully highlighted with support for 100+ programming languages.
-
-### Document Management
-
-- Auto-save to prevent data loss
-- Version history
-- Export to HTML, PDF, or plain text
-- Cloud sync (optional)
 
 ### Customization
 

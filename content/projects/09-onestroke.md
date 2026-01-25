@@ -10,7 +10,14 @@ categories = ["ゲーム"]
 
 Build complex forms without code using our intuitive drag-and-drop form builder.
 
-## Features
+## ゲーム概要
+- ゲームジャンル：　3Dパズルゲーム
+- プラットフォーム：　Windows, HoloLens2 
+- 開発人数：　1人
+- 開発時期：　2023年9月～12月（4ヶ月）
+- 開発ツール：　Unity (C#), MRTK, UniRx, UniTask
+- 担当箇所：　プログラム、PCとHoloLens2の両プラットフォームの対応
+
 
 ### Form Building
 

@@ -1,7 +1,7 @@
 +++
 title = "ラスタライズ法を用いた面積計算"
 date = 2024-01-10
-summary = "3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算を作成。\n開発人数:　1人\n開発時期:　2023年月~月(ヶ月)"
+summary = "3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算機能を作成。\n開発人数:　1人\n開発時期:　2023年月~月(ヶ月)"
 featured = true
 weight = 3
 tags = ["ツール", "個人開発"]
@@ -10,9 +10,9 @@ categories = ["ツール"]
 
 A minimal markdown editor designed for focused writing. Built with modern web technologies for a smooth, native-like experience.
 
-## Features
+## 開発意図
 
-### Distraction-Free Mode
+### 軽量化について
 
 Full-screen mode that hides all UI elements except your text. Perfect for deep focus writing sessions.
 

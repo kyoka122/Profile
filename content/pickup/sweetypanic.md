@@ -13,19 +13,23 @@ main_image = "images/sweety_panic.png"
 
 - Lightning-fast build times
 
-## デモ動画
-
-- Lightning-fast build times
 
 ## ゲーム概要
 
 - ゲームジャンル：　2D横スクロールアクションゲーム
 - プラットフォーム：　Windows  (Joy-Con等コントローラー使用可)
 - キャッチコピー：　直して！殴って？ kawaiiお菓子の国のお姫様達っ、暴れちゃいます！
-- 制作人数：　4人
+- 開発人数：　4人
 - 開発期間：　年(202年月~202年月)
 - 担当箇所：　ディレクション、プログラム、プランニング　全般　（他にもUI制作、2Dイラスト制作、アニメーション制作、レベルデザイン、等に少しずつ関わっております。）
 - 開発ツール：　Unity (C#)
+
+## 受賞歴
+
+## デモ動画
+
+- Lightning-fast build times
+
 
 ## あらすじ
 
