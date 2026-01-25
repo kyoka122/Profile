@@ -371,7 +371,7 @@
           {{ end }}
           <div class="home-list-content">
             <div class="home-list-meta">
-              {{ if eq .Section "projects" }}
+              {{ if in (slice "projects" "pickup") .Section }}
               <span class="home-list-project-badge">PROJECT</span>
               {{ end }}
               {{ if in (slice "technical") .Section }}
