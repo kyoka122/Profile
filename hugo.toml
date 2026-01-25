@@ -5,6 +5,11 @@ theme = "yassi"
 
 buildFuture = true
 
+[markup]
+ [markup.goldmark]
+  [markup.goldmark.extensions]
+   linkify = true
+
 [params]
   CoverImage = "images/avatar.png"
   CoverImageWidth = 150
