@@ -6,87 +6,31 @@ featured = true
 weight = 0
 tags = ["3D", "パズル", "XR", "HoloLens2", "個人開発"]
 categories = ["ゲーム"]
-intro_title = "ゲーム概要"
-intro_summary = "・ゲームジャンル：　3Dパズルゲーム\n・プラットフォーム：　Windows, HoloLens2 \n・開発人数：　1人\n・開発時期：　2023年9月～12月（4ヶ月）\n・開発ツール：　Unity (C#), MRTK, UniRx, UniTask\n・担当箇所：　プログラム、PCとHoloLens2の両プラットフォームの対応"
+main_image = "images/one_stroke_holo.gif"
+intro_title = "開発概要"
+intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プレイ人数:　1人\n・ プラットフォーム：　Windows, HoloLens2 \n・ 開発人数：　1人\n・ 開発時期：　2023年9月～12月（4ヶ月）\n・ 開発ツール：　Unity (C#), MRTK, UniRx, UniTask"
 +++
 
-Build complex forms without code using our intuitive drag-and-drop form builder.
-
 ## ゲーム概要
-- 
+卒業研究で実験のために開発した3Dの一筆書きです。
+5ステージ連続で挑戦します。
+PCとHoloLens2というXRデバイスの2プラットフォームで遊べます。
+
+## 実装機能(全て担当)
+- PC
+  - マウス左クリック長押しで点と点を繋ぐ機能
+  - カメラ移動
+- HoloLens
+  - 点との接触判定
+- 最後に選んだ点を高速点滅、2番目に選んだ点をゆっくり点滅させる機能
+- 通った線の色を変える機能
+- 時間計測機能
+- リセット機能
+- [一筆書きオブジェクトをカメラ空間に投影した時の面積計算、テキスト書き出しツール](https://kyoka122.github.io/Profile/Profile/technical/rastarize/) 
+- [点と線を生成するためのツール](https://kyoka122.github.io/Profile/Profile/technical/auto-generator/) 
 
 
-### Form Building
+## デモ動画
+- HoloLens(外から見たとき)
+- PC
 
-- Drag-and-drop interface
-- 20+ field types
-- Conditional logic
-- Multi-step forms
-- File uploads
-- E-signatures
-- Payment integration
-- Calculations
-
-### Field Types
-
-- Text inputs
-- Text areas
-- Dropdowns
-- Checkboxes
-- Radio buttons
-- Date pickers
-- File upload
-- Email
-- Phone number
-- Address
-- Rating scales
-- Matrix questions
-
-### Logic & Validation
-
-- Show/hide fields
-- Skip logic
-- Validation rules
-- Custom error messages
-- Field dependencies
-- Calculated fields
-
-## Integrations
-
-Connect with:
-- Email services (SendGrid, Mailchimp)
-- Payment gateways (Stripe, PayPal)
-- CRM systems
-- Zapier
-- Webhooks
-- Google Sheets
-
-## Response Management
-
-- Real-time submissions
-- Export to CSV/Excel
-- Email notifications
-- Auto-responders
-- Analytics dashboard
-- Response filtering
-
-## Templates
-
-Pre-built templates for:
-- Contact forms
-- Registration forms
-- Surveys
-- Order forms
-- Job applications
-- Event registration
-
-## Embedding
-
-Embed forms anywhere:
-- Popup modal
-- Slide-in panel
-- Inline embed
-- Full page
-- Share via link
-
-Build professional forms in minutes, not hours.

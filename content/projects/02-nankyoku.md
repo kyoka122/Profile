@@ -1,40 +1,43 @@
 +++
 title = "南極大陸探検隊"
 date = 2021-03-01
-summary = "ジャンル:　3DダンジョンRPG\nプレイ人数:　1人\n開発時期:　2021年3月～2022年2月（1年）\n開発人数:　5人"
+summary = "ジャンル:　3DダンジョンRPG\nプレイ人数:　2人以上\n開発時期:　2021年3月～2022年2月（1年）\n開発人数:　5人"
 featured = true
 weight = 2
 tags = ["3D", "ダンジョン", "多人数プレイ", "オンライン", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/nankyoku.gif"
-intro_title = "ゲーム概要"
-intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プラットフォーム：　Windows\n・ 開発人数：　5人\n・ 開発時期：　2021年3月～2022年2月（1年）\n・ 開発ツール：　Unity (C#), Photon, UniRx, UniTask\n・ 担当箇所：　プログラム、UIデザイン、マルチプレイ実装"
+intro_title = "開発概要"
+intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プレイ人数:　2人以上\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　5人\n・ 開発時期：　2021年3月～2022年2月（1年）\n・ 開発ツール：　Unity (C#), Photon, UniRx, UniTask\n"
 +++
 
-A custom static site generator that prioritizes speed and simplicity. Built in Go for maximum performance.
 
 ## ゲーム概要
+ポケットモンスターダイヤモンド・パールの地下探検を参考にしたオンラインゲームです。
+ゲームの目的としては「他プレイヤーの基地の旗をいかにたくさん取るか」ですが、ゲーム前半にどのような準備をするか戦略を練るのも醍醐味です。
+
+## ゲームフロー
+1. 最初の10分は自分の基地の作成時間です。地下での通貨とも言える化石を掘り、トラップや基地の装飾品を購入して基地を作ります。
+2. 後半10分は旗の奪い合いターンです。他プレイヤーの基地に侵入し、旗を奪う事で得点になります。
+3. インゲーム終了後、全プレイヤーの基地が画像として表示されるので、出来栄えを見合い、お互いに投票します。投票されると加点になります。
+
+## 実装機能
+- オンライン通信
+- 化石掘り
+- 化石を基に手に入れたトラップの配置
+- 基地づくり
+- 旗の奪い合い
+- 基地評価機能(オリジナル。全プレイヤーの基地の出来栄えを見合い、投票されると加点になります。)
+
+## 担当箇所
+- オンライン通信部分全般
+ - 各プレイヤー位置の同期
+ - 旗を奪う時の判定
+ - 各プレイヤーのステータス同期等
+- 秘密基地の模様替え機能(オブジェクトの設置)
+- 基地の評価機能(カメラのスクリーンショットをRawAssetに貼り付け、UIとして表示)
 
 
-## Usage
+## デモ動画
 
-```bash
-# Install
-go install github.com/yourusername/ssg
 
-# New site
-ssg new mysite
-
-# Build
-ssg build
-
-# Serve with live reload
-ssg serve
-```
-
-## Future Plans
-
-- Incremental builds
-- Extended plugin API
-- Theme marketplace
-- Cloud deployment integration

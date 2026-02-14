@@ -1,83 +1,48 @@
 +++
 title = "CandySeeker"
 date = 2021-01-01
-summary = "ジャンル:　2Dオンラインパズルゲーム\nプレイ人数:　1人\n開発時期:　2021年1月～3月（3ヶ月）\n開発人数:　1人"
+summary = "ジャンル:　2Dオンラインパズルゲーム\nプレイ人数:　2人～8人\n開発時期:　2021年1月～3月（3ヶ月）\n開発人数:　1人"
 featured = true
 weight = 3
 tags = ["2D", "パズル", "多人数プレイ", "オンライン", "個人開発"]
 categories = ["ゲーム"]
 main_image = "images/candy_seeker.gif"
-intro_title = "ゲーム概要"
-intro_summary = "・ ゲームジャンル：　2Dオンラインパズルゲーム\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　1人\n・ 開発時期：　2021年1月～3月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon\nプレイ用URL： https://unityroom.com/games/candyseeker"
+intro_title = "開発概要"
+intro_summary = "・ ゲームジャンル：　2Dオンラインパズルゲーム\n・ プレイ人数:　2人～8人\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　1人\n・ 開発時期：　2021年1月～3月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon\n・ プレイ用URL： https://unityroom.com/games/candyseeker"
 +++
 
 
 ## ゲーム概要
-- プレイ用URL： https://unityroom.com/games/candyseeker
 <!-- - プロジェクトリポジトリ：https://github.com/kyoka122/CandySeeker_kyoka2 -->
+ボードゲームの「シーカ」をオンライン対戦できるようにしたゲームです。最大8人でプレイできます。
 
-### Application Metrics
+また、ゲーム設定もプレイヤーが自由に出来るようにしており、例えば本来のシーカにはない「スパイ機能」や「王様機能」、「駒数の変更」「持ち時間の変更」なども設定できます。
+- 王様機能 - 相手に取られると高得点を取られてしまう駒
+- スパイ機能 - 相手の駒のサブカラーが自分のメインカラーの場合、その相手の駒と自分の駒で任意の駒を挟むことができる
 
-- Response times
-- Error rates
-- Request rates
-- Database queries
-- Cache hit rates
-- Queue lengths
+## ゲームフロー
+1. 部屋名、プレイヤー名を指定してルーム入室
+2. ルーム入室後、ゲームの設定を行う
+3. ゲーム開始。自分のターンに駒を動かしてより沢山の駒を取ります。
 
-### Availability
+【駒の取り方】
+駒は隣り合うマスに移動できます。
+移動した時、直線状に　[自駒] - [敵駒] - [自駒]　のように、敵駒を挟むと挟んだ駒を取ることができます。
 
-- Uptime monitoring
-- Health checks
-- SSL certificate expiry
-- DNS monitoring
-- Port monitoring
-- HTTP/HTTPS checks
 
-## Alerting
+## 実装機能(全て担当)
+- オンライン通信
+  - マッチング (ロビーにて部屋作成 or 部屋一覧より指定した部屋に入室)
+  - プレイヤーカラー、ボード、駒設定の同期（ゲーム開始前）
+  - 駒の位置同期
+  - 点数、残りの駒数の同期
+  - 旗を奪う時の判定同期
+  - 各プレイヤーのステータス同期
+- 配置しようとしているマスが隣り合うマスかどうかの判定
+- 敵の駒を挟んだかどうかの判定
 
-Smart alerting system:
-- Multiple notification channels (email, SMS, Slack, PagerDuty)
-- Alert rules and thresholds
-- Alert escalation
-- On-call schedules
-- Alert grouping
-- Maintenance windows
+- イラスト作成（UI,2Dオブジェクト）
 
-## Dashboards
+## デモ動画
 
-Customizable dashboards:
-- Real-time metrics
-- Historical data
-- Custom time ranges
-- Multiple visualizations
-- Shared dashboards
-- TV mode
 
-## Data Collection
-
-- Agent-based monitoring
-- Agentless monitoring
-- Log aggregation
-- Metric aggregation
-- Distributed tracing
-- APM integration
-
-## Features
-
-- Multi-tenant support
-- Role-based access
-- Audit logging
-- API access
-- Webhook integrations
-- Custom plugins
-
-## Tech Stack
-
-- Go for agents
-- Time-series database (InfluxDB/Prometheus)
-- Redis for caching
-- React dashboard
-- WebSocket for real-time updates
-
-Keep your infrastructure healthy and your team informed.

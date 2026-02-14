@@ -7,80 +7,36 @@ weight = 5
 tags = ["2D", "シューティング", "アクション", "ゲームジャム", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/charge_magic.gif"
-intro_title = "ゲーム概要"
-intro_summary = "・ ゲームジャンル：　2Dシューティングアクション\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　3人\n・ 開発時期：　2022年9月（1週間）(Unity1weekのゲームジャムイベント)\n・ 開発ツール：　Unity (C#), Unity, UniRx, UniTask\n・ 担当箇所：　プログラム (キャラの移動や)\n・ ゲームジャムのお題:　ためる\n・ プレイ用URL： https://unityroom.com/games/chargemagic"
+intro_title = "開発概要"
+intro_summary = "・ ゲームジャンル：　2Dシューティングアクション\n・ プレイ人数:　1人\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　3人\n・ 開発時期：　2022年9月（1週間）(Unity1weekのゲームジャムイベント)\n・ 開発ツール：　Unity (C#), Unity, UniRx, UniTask\n・ プレイ用URL： https://unityroom.com/games/chargemagic \n・ リポジトリURL： https://github.com/kyoka122/unity1week_tameru"
 +++
 
-A complete design system providing consistent components, patterns, and guidelines.
-
 ## ゲーム概要
-- 
+ゲームジャムのお題が「ためる」ということで、魔法をチャージして次々と迫りくる敵を倒していくシューティングアクションゲームです。
+プレイヤーはマップを動き回りつつ、迫りくる敵にチャージ魔法を放ち、倒していきます。
+チャージ魔法は長時間溜めれば溜めるほどより強力になるため、チャージをして強力な魔法を使うか、短いチャージで沢山魔法を放つか、その駆け引きが重要なゲームです。
 
-## Design Tokens
+## 開発のきっかけ
+当時、設計に強くなるため様々な書籍を読んでいたのですが、ゲーム開発に上手く落とし込めず何が正解か悩んでいた時期がありました。そのことを部活動のOBの方に相談したところ、こちらのゲームジャムに同じチームに誘っていただきました。
+開発中、ゲーム開発で使いやすいレイヤーを意識した設計を教えていただき、この時勉強したことは社会人になってからも役立っています。
 
-Centralized design decisions:
-- Colors
-- Typography
-- Spacing
-- Shadows
-- Borders
-- Animations
+## 実装機能
+- タイトル（クレジット含む）
+- プレイヤーの動作、HP管理
+- プレイヤーの魔法の動作
+- 敵の動作
+- 制限時間、スコア
+- スコアのオンラインランキング
 
-## Features
 
-### Accessibility
+## 担当箇所(インゲーム担当)
+- キャラの移動処理、接触判定とHP管理
+- 魔法のチャージ処理と発動後の移動、接触判定処理
+- 魔法のチャージインジケーター実装
+- 敵のHP、生成間隔、プレイヤーの魔法パラメータの登録ツール
+- 制限時間、スコアの表示と管理
 
-- WCAG 2.1 AA compliant
-- Keyboard navigation
-- Screen reader support
-- High contrast mode
-- Focus management
 
-### Theming
+## デモ動画
 
-- Light and dark modes
-- Custom themes
-- CSS variables
-- Runtime theming
-- Theme switching
 
-### Documentation
-
-- Interactive examples
-- Code snippets
-- Props documentation
-- Best practices
-- Accessibility guidelines
-
-## Tech Stack
-
-- React 18
-- TypeScript
-- Styled Components
-- Storybook
-- Jest & Testing Library
-
-## Developer Experience
-
-- NPM package
-- Tree-shakable
-- TypeScript types
-- Detailed documentation
-- Migration guides
-- Codemod tools
-
-## Tools
-
-- Storybook for development
-- Chromatic for visual testing
-- Figma integration
-- Design token sync
-- Automated releases
-
-Perfect for:
-- Product teams
-- Design agencies
-- Open source projects
-- Enterprise applications
-
-Build consistent, accessible user interfaces at scale.

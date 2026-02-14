@@ -1,33 +1,38 @@
 +++
-title = "SAKURA SPACE"
+title = "SAKURA SPACE(対戦不安定)"
 date = 2021-04-01
-summary =  "ジャンル:　3Dシューティングゲーム\nプレイ人数:　1人～\n開発時期:　2021年4月～7月（3ヶ月）\n開発人数:　1人"
+summary =  "ジャンル:　3Dシューティングゲーム\nプレイ人数:　1人以上\n開発時期:　2021年4月～7月（3ヶ月）\n開発人数:　1人"
 featured = true
 weight = 7
 tags = ["3D", "シューティング", "多人数プレイ", "オンライン", "個人開発"]
 categories = ["ゲーム"]
 main_image = "images/sakura_space.gif"
 intro_title = "ゲーム概要"
-intro_summary = "・ ゲームジャンル：　3Dシューティングゲーム\n・ プラットフォーム：　Windows\n・ 開発人数：　1人\n・ 開発時期：　2021年4月～7月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon, UniTask\n・ 担当箇所：　プログラム、UIデザイン、3Dモデル作成、マルチプレイ実装"
+intro_summary = "・ ゲームジャンル：　3Dシューティングゲーム\n・ プレイ人数:　1人以上\n・ プラットフォーム：　Windows,WebGL\n・ 開発人数：　1人\n・ 開発時期：　2021年4月～7月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon, UniTask\n・ プレイ用URL： https://unityroom.com/games/sakuraworld"
 +++
 
-A platform for developers to share, discover, and organize code snippets.
-
 ## ゲーム概要
-- 
+各プレイヤーが同じ空間に存在する的（桜の花びら）に矢を放ち、当たるとスコアを獲得できるゲームです。
+プレイヤー同士に矢を当て、ひるませることもできます。
 
-## Technology
+## ゲームフロー
+1. 部屋名、プレイヤー名を指定してルーム入室。
+2. ルーム入室後、プレイヤーカラーの設定を行う。
+3. ゲーム開始。沢山の桜を射抜きスコアを競います。
 
-Built with Vue.js 3 and Algolia search for lightning-fast snippet discovery.
 
-## Use Cases
+## 実装機能(全て担当)
+- オンライン通信
+  - マッチング (ロビーにて部屋作成 or 指定した部屋に入室)
+  - プレイヤーカラーの同期（ゲーム開始前）
+  - 各プレイヤーの位置同期
+  - 花びらオブジェクトの位置、生成、破棄同期
+  - 桜の当たり判定同期
+  - スコア同期
+- カメラ回転処理
 
-- Personal code reference
-- Team knowledge base
-- Tutorial code examples
-- Quick problem solutions
-- Boilerplate templates
+- モデル作成（弓、矢）
 
-## Benefits
+## デモ動画
 
-Never lose that perfect piece of code again. Search and find exactly what you need in seconds.
+
