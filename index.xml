@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on kkaProfile</title><link>https://kyoka122.github.io/Profile/</link><description>Recent content in Home on kkaProfile</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kyoka122.github.io/Profile/index.xml" rel="self" type="application/rss+xml"/><item><title>Sweety Panic</title><link>https://kyoka122.github.io/Profile/pickup/sweetypanic/</link><pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/pickup/sweetypanic/</guid><description>ジャンル:　2D 横スクロールアクション
 プレイ人数:　1～4人
 開発人数:　4人
-開発時期:
-2022年8月~2023年月(1年)</description></item><item><title>ToLight(未完成)</title><link>https://kyoka122.github.io/Profile/projects/01-to-light/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/01-to-light/</guid><description>ジャンル:　3Dアクションゲーム
+開発時期:　2022年8月~2023年11月(1年)</description></item><item><title>ToLight(未完成)</title><link>https://kyoka122.github.io/Profile/projects/01-to-light/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/01-to-light/</guid><description>ジャンル:　3Dアクションゲーム
 プレイ人数:　1人
 開発時期:　2022年4月～8月（5ヶ月）
 開発人数:　4人</description></item><item><title>3D一筆書きゲームの作成補助ツール</title><link>https://kyoka122.github.io/Profile/technical/auto-generator/</link><pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/technical/auto-generator/</guid><description>3D一筆書きを作成するため、点と点(球と球)を結ぶ線(円柱)オブジェクトを自動で配置するツールを作成。
 開発人数:　1人
 開発時期:　2023年月~月(ヶ月)</description></item><item><title>南極大陸探検隊</title><link>https://kyoka122.github.io/Profile/projects/02-nankyoku/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/02-nankyoku/</guid><description>ジャンル:　3DダンジョンRPG
-プレイ人数:　1人
+プレイ人数:　2人以上
 開発時期:　2021年3月～2022年2月（1年）
 開発人数:　5人</description></item><item><title>ラスタライズ法を用いた面積計算</title><link>https://kyoka122.github.io/Profile/technical/rastarize/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/technical/rastarize/</guid><description>3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算機能を作成。
 開発人数:　1人
 開発時期:　2023年月~月(ヶ月)</description></item><item><title>CandySeeker</title><link>https://kyoka122.github.io/Profile/projects/03-candy-seeker/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/03-candy-seeker/</guid><description>ジャンル:　2Dオンラインパズルゲーム
-プレイ人数:　1人
+プレイ人数:　2人～8人
 開発時期:　2021年1月～3月（3ヶ月）
 開発人数:　1人</description></item><item><title>叩けば直るでしょ(企業ハッカソン)</title><link>https://kyoka122.github.io/Profile/projects/04-tatakebanaorudesho/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/04-tatakebanaorudesho/</guid><description>ジャンル:　2D連打ゲーム
 プレイ人数:　1人
@@ -21,16 +20,16 @@
 開発人数:　4人</description></item><item><title>Charge Magic Survivour</title><link>https://kyoka122.github.io/Profile/projects/05-charge-magic-survivor/</link><pubDate>Thu, 01 Sep 2022 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/05-charge-magic-survivor/</guid><description>ジャンル:　2D シューティングアクション
 プレイ人数:　1人
 開発時期:　2022年9月（1週間）
-開発人数:　3人</description></item><item><title>FadeCity(未完成)</title><link>https://kyoka122.github.io/Profile/projects/06-fadecity/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/06-fadecity/</guid><description>ジャンル:　3Dアクションゲーム
-プレイ人数:　1人
-開発時期:　2021年12月～2022年3月（3ヶ月）
-開発人数:　7人</description></item><item><title>SAKURA SPACE</title><link>https://kyoka122.github.io/Profile/projects/07-sakura-space/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/07-sakura-space/</guid><description>ジャンル:　3Dシューティングゲーム
-プレイ人数:　1人～
+開発人数:　3人</description></item><item><title>SAKURA SPACE(対戦不安定)</title><link>https://kyoka122.github.io/Profile/projects/07-sakura-space/</link><pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/07-sakura-space/</guid><description>ジャンル:　3Dシューティングゲーム
+プレイ人数:　1人以上
 開発時期:　2021年4月～7月（3ヶ月）
-開発人数:　1人</description></item><item><title>Destroy Planet</title><link>https://kyoka122.github.io/Profile/projects/08-destroyplannet/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/08-destroyplannet/</guid><description>ジャンル:　3Dパズルゲーム
+開発人数:　1人</description></item><item><title>Destroy Planet(対戦不安定)</title><link>https://kyoka122.github.io/Profile/projects/08-destroyplannet/</link><pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/08-destroyplannet/</guid><description>ジャンル:　3Dパズルゲーム
 プレイ人数:　1～2人
 開発時期:　2020年9月～11月（3ヶ月）
-開発人数:　2人</description></item><item><title>3D一筆書き</title><link>https://kyoka122.github.io/Profile/projects/09-onestroke/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/09-onestroke/</guid><description>ジャンル:　3Dパズルゲーム
+開発人数:　2人</description></item><item><title>FadeCity(未完成)</title><link>https://kyoka122.github.io/Profile/projects/06-fadecity/</link><pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/06-fadecity/</guid><description>ジャンル:　3Dアクションゲーム
+プレイ人数:　1人
+開発時期:　2021年12月～2022年3月（3ヶ月）
+開発人数:　7人</description></item><item><title>3D一筆書き</title><link>https://kyoka122.github.io/Profile/projects/09-onestroke/</link><pubDate>Fri, 01 Sep 2023 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/09-onestroke/</guid><description>ジャンル:　3Dパズルゲーム
 プレイ人数:　1人
 開発時期:　2023年9月～12月（4ヶ月）
 開発人数:　1人</description></item><item><title>About</title><link>https://kyoka122.github.io/Profile/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/about/</guid><description>&lt;p&gt;Yassi is a modern Hugo theme designed for developers, writers, and creators who want a clean, focused platform for their content.&lt;/p&gt;
