@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on kkaProfile</title><link>https://kyoka122.github.io/Profile/</link><description>Recent content in Home on kkaProfile</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Wed, 10 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kyoka122.github.io/Profile/index.xml" rel="self" type="application/rss+xml"/><item><title>Sweety Panic</title><link>https://kyoka122.github.io/Profile/pickup/sweetypanic/</link><pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/pickup/sweetypanic/</guid><description>ジャンル:　2D 横スクロールアクション
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Home on kkaProfile</title><link>https://kyoka122.github.io/Profile/</link><description>Recent content in Home on kkaProfile</description><generator>Hugo</generator><language>ja</language><lastBuildDate>Sun, 08 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://kyoka122.github.io/Profile/index.xml" rel="self" type="application/rss+xml"/><item><title>Pylamid Trasure</title><link>https://kyoka122.github.io/Profile/unreal/20-pylamid_treasure/</link><pubDate>Sun, 08 Feb 2026 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/unreal/20-pylamid_treasure/</guid><description>ジャンル:　3Dアクションゲーム
+プレイ人数:　1人
+開発時期:　2026年2月（2日間）
+開発人数:　1人</description></item><item><title>Sweety Panic</title><link>https://kyoka122.github.io/Profile/pickup/sweetypanic/</link><pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/pickup/sweetypanic/</guid><description>ジャンル:　2D 横スクロールアクション
 プレイ人数:　1～4人
 開発人数:　4人
 開発時期:　2022年8月~2023年11月(1年)</description></item><item><title>ToLight(未完成)</title><link>https://kyoka122.github.io/Profile/projects/01-to-light/</link><pubDate>Fri, 01 Apr 2022 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/01-to-light/</guid><description>ジャンル:　3Dアクションゲーム
 プレイ人数:　1人
 開発時期:　2022年4月～8月（5ヶ月）
-開発人数:　4人</description></item><item><title>3D一筆書きゲームの作成補助ツール</title><link>https://kyoka122.github.io/Profile/technical/auto-generator/</link><pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/technical/auto-generator/</guid><description>3D一筆書きを作成するため、点と点(球と球)を結ぶ線(円柱)オブジェクトを自動で配置するツールを作成。
+開発人数:　4人</description></item><item><title>3D一筆書きゲームの作成補助ツール</title><link>https://kyoka122.github.io/Profile/technical/10-auto-generator/</link><pubDate>Fri, 05 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/technical/10-auto-generator/</guid><description>3D一筆書きを作成するため、点と点(球と球)を結ぶ線(円柱)オブジェクトを自動で配置するツールを作成。
 開発人数:　1人
 開発時期:　2023年月~月(ヶ月)</description></item><item><title>南極大陸探検隊</title><link>https://kyoka122.github.io/Profile/projects/02-nankyoku/</link><pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/02-nankyoku/</guid><description>ジャンル:　3DダンジョンRPG
 プレイ人数:　2人以上
 開発時期:　2021年3月～2022年2月（1年）
-開発人数:　5人</description></item><item><title>ラスタライズ法を用いた面積計算</title><link>https://kyoka122.github.io/Profile/technical/rastarize/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/technical/rastarize/</guid><description>3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算機能を作成。
+開発人数:　5人</description></item><item><title>ラスタライズ法を用いた面積計算</title><link>https://kyoka122.github.io/Profile/technical/11-rastarize/</link><pubDate>Wed, 10 Jan 2024 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/technical/11-rastarize/</guid><description>3Dオブジェクトをカメラに映した時の面積を計算するため、ラスタライズ法を用いた射影変換方式、ラスター形式を使用した面積計算機能を作成。
 開発人数:　1人
 開発時期:　2023年月~月(ヶ月)</description></item><item><title>CandySeeker</title><link>https://kyoka122.github.io/Profile/projects/03-candy-seeker/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://kyoka122.github.io/Profile/projects/03-candy-seeker/</guid><description>ジャンル:　2Dオンラインパズルゲーム
 プレイ人数:　2人～8人
