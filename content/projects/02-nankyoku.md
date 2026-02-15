@@ -8,7 +8,7 @@ tags = ["3D", "ダンジョン", "多人数プレイ", "オンライン", "チ�
 categories = ["ゲーム"]
 main_image = "images/nankyoku.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プレイ人数:　2人以上\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　5人\n・ 開発時期：　2021年3月～2022年2月（1年）\n・ 開発ツール：　Unity (C#), Photon, UniRx, UniTask\n"
+intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プレイ人数：　　 2人以上\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　　  5人\n・ 開発時期：　　  2021年3月～2022年2月（1年）\n・ 開発ツール：　　  Unity (C#), Photon, UniRx, UniTask\n"
 +++
 
 

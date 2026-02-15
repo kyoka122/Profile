@@ -8,7 +8,7 @@ tags = ["3D", "パズル", "XR", "HoloLens2", "個人開発"]
 categories = ["ゲーム"]
 main_image = "images/one_stroke_holo.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プレイ人数:　1人\n・ プラットフォーム：　Windows, HoloLens2 \n・ 開発人数：　1人\n・ 開発時期：　2023年9月～12月（4ヶ月）\n・ 開発ツール：　Unity (C#), MRTK, UniRx, UniTask"
+intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プレイ人数： 　　1人\n・ プラットフォーム：　Windows, HoloLens2 \n・ 開発人数：　　  1人\n・ 開発時期：　　  2023年9月～12月（4ヶ月）\n・ 開発ツール：　　  Unity (C#), MRTK, UniRx, UniTask"
 +++
 
 ## ゲーム概要

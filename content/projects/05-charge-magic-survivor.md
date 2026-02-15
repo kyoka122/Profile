@@ -8,7 +8,7 @@ tags = ["2D", "シューティング", "アクション", "ゲームジャム", 
 categories = ["ゲーム"]
 main_image = "images/charge_magic.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　2Dシューティングアクション\n・ プレイ人数:　1人\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　3人\n・ 開発時期：　2022年9月（1週間）(Unity1weekのゲームジャムイベント)\n・ 開発ツール：　Unity (C#), Unity, UniRx, UniTask\n・ [プレイ用URL](https://unityroom.com/games/chargemagic)\n・ [リポジトリURL](https://github.com/kyoka122/unity1week_tameru)"
+intro_summary = "・ ゲームジャンル：　2Dシューティングアクション\n・ プレイ人数：　　 1人\n・ プラットフォーム：   WebGL, Windows\n・ 開発人数： 　 　3人\n・ 開発時期：　 　 2022年9月（1週間）\n　　　　　　　　 ┗ Unity1weekのゲームジャムイベント)\n・ 開発ツール：　　 Unity (C#), Unity, UniRx, UniTask\n・ [プレイ用URL](https://unityroom.com/games/chargemagic)\n・ [リポジトリURL](https://github.com/kyoka122/unity1week_tameru)"
 +++
 
 ## ゲーム概要

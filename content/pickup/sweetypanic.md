@@ -8,7 +8,7 @@ tags = ["2D", "アクション", "多人数プレイ", "コントローラー"]
 categories = ["ゲーム"]
 main_image = "images/sweety_panic.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数:　1～4人\n・ プラットフォーム：　Windows\n・ 開発人数：　4人\n・ 開発時期：　2022年8月~2023年11月(1年)\n　┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　Unity (C#), DOTween\n・ [ビルドデータURL(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [リポジトリURL](https://github.com/kyoka122/SweetyPanick_Scripts)"
+intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [ビルドデータURL(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [リポジトリURL](https://github.com/kyoka122/SweetyPanick_Scripts)"
 
 sub_image = "images/sweety_panic.gif"
 +++

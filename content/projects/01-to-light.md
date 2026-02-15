@@ -8,7 +8,7 @@ tags = ["3D", "アクション", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/toLight.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ プレイ人数:　1人\n・ プラットフォーム：　Windows\n・ 開発人数：　4人\n・ 開発時期：　2022年4月～8月（5ヶ月）\n・ 開発ツール：　Unity (C#), UniRx, UniTask等"
+intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ プレイ人数：　　 1人\n・ プラットフォーム：　Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年4月～8月（5ヶ月）\n・ 開発ツール：　　  Unity (C#), UniRx, UniTask等"
 +++
 
 ## キャッチコピー
