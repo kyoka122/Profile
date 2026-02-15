@@ -7,8 +7,8 @@ weight = 7
 tags = ["3D", "シューティング", "多人数プレイ", "オンライン", "個人開発"]
 categories = ["ゲーム"]
 main_image = "images/sakura_space.gif"
-intro_title = "ゲーム概要"
-intro_summary = "・ ゲームジャンル：　3Dシューティングゲーム\n・ プレイ人数:　1人以上\n・ プラットフォーム：　Windows,WebGL\n・ 開発人数：　1人\n・ 開発時期：　2021年4月～7月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon, UniTask\n・ プレイ用URL： https://unityroom.com/games/sakuraworld"
+intro_title = "開発概要"
+intro_summary = "・ ゲームジャンル：　3Dシューティングゲーム\n・ プレイ人数:　1人以上\n・ プラットフォーム：　Windows,WebGL\n・ 開発人数：　1人\n・ 開発時期：　2021年4月～7月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon, UniTask\n・ [ゲームプレイ用URL](https://unityroom.com/games/sakuraworld)"
 +++
 
 ## ゲーム概要

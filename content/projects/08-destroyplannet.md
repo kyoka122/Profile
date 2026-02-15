@@ -8,7 +8,7 @@ tags = ["3D", "パズル", "多人数プレイ", "オンライン", "チーム�
 categories = ["ゲーム"]
 main_image = "images/destroy_planet.png"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プレイ人数:　1～2人\n・ プラットフォーム：　Windows\n・ 開発人数：　2人\n・ 開発時期：　2020年9月～11月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon\n・ プレイ用URL： https://unityroom.com/games/tducc_dp"
+intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プレイ人数:　1～2人\n・ プラットフォーム：　Windows\n・ 開発人数：　2人\n・ 開発時期：　2020年9月～11月（3ヶ月）\n・ 開発ツール：　Unity (C#), Photon\n・ [ゲームプレイ用URL](https://unityroom.com/games/tducc_dp)"
 +++
 
 

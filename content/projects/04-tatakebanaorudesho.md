@@ -8,7 +8,7 @@ tags = ["2D", "連打ゲー", "ハッカソン", "チーム開発"]
 categories = ["ゲーム"]
 main_image = "images/tatake.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　2D連打ゲーム\n・ プレイ人数:　1人\n・ プラットフォーム：　Windows\n・ 開発人数：　4人\n・ 開発時期：　2日 (2022年9月) (株式会社カプコン様のハッカソンイベント)\n・ 開発ツール：　Unity (C#), DOTween\n・ ビルドデータ(exe): https://drive.google.com/drive/folders/1mziGi78-6UubG5d_Qm5qgtIS_c8vuemB?usp=drive_link"
+intro_summary = "・ ゲームジャンル：　2D連打ゲーム\n・ プレイ人数:　1人\n・ プラットフォーム：　Windows\n・ 開発人数：　4人\n・ 開発時期：　15時間 (2022年9月) (株式会社カプコン様のハッカソンイベント)\n・ 開発ツール：　Unity (C#), DOTween\n・ [ビルドデータURL(exe)](https://drive.google.com/drive/folders/1mziGi78-6UubG5d_Qm5qgtIS_c8vuemB?usp=drive_link)"
 +++
 
 
@@ -18,7 +18,7 @@ intro_summary = "・ ゲームジャンル：　2D連打ゲーム\n・ プレイ
 ハッカソンで全体2位の結果を納めました。
 
 ## ハッカソンについて
-初めて会う方と「リモート」「4人チーム」「2日間」という条件で1つのゲームを開発するハッカソンに参加しました。
+初めて会う方と「リモート」「4人チーム」「2日間(15時間)」という条件で1つのゲームを開発するハッカソンに参加しました。
 ハッカソンでは特に、カメラ揺れ、スプライトによる打撃エフェクトの表示、などの演出の実装の提案+実装でメンバーの方々にも「一気にゲームらしくなった！」と好評をいただけました。
 
 ## 実装機能
