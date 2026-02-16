@@ -41,12 +41,48 @@
       {{ end }}
     </div>
   </div>
-  
+
+  <div class="post-intro">
+    <div class="post-intro-text">
+      {{ if .Params.sub_intro_title }}
+      <p class="post-intro-title">{{.Params.sub_intro_title}}</p>
+      {{ end }}
+      {{ if .Params.sub_intro_summary}}
+      <p class="post-intro-summary">{{.Params.sub_intro_summary | markdownify}}</p>
+      {{ end }}
+    </div>
+    
+    {{ if .Params.sub_image }}
+    <div class="post-image">
+      <img src="{{ .Params.sub_image | relURL}}" alt="{{ .Title }}">
+    </div>
+    {{ end }}
+  </div>
 
   <div class="post-content">
     {{ .Content }}
   </div>
 
+  
+  <div class="post-demo">
+    {{ if .Params.main_demo_title }}
+      <h4 class="post-demo-title">{{.Params.main_demo_title | markdownify}}</h4>
+    {{ end }}
+    {{ if .Params.main_demo }}
+    <video controls src="{{ .Params.main_demo | relURL}}">
+    </video>
+    {{ end }}
+
+    {{ if .Params.sub_demo_title }}
+      <h4 class="post-demo-title">{{.Params.sub_demo_title | markdownify}}</h4>
+    {{ end }}
+    {{ if .Params.sub_demo }}
+    <video controls src="{{ .Params.sub_demo | relURL}}">
+    </video>
+    {{ end }}
+  </div>
+
+  
   {{ partial "giscus.html" . }}
 </article>
 
