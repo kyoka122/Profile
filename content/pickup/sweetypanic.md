@@ -6,19 +6,22 @@ featured = true
 weight = 1
 tags = ["2D", "アクション", "多人数プレイ", "コントローラー"]
 categories = ["ゲーム"]
+
 main_image = "images/sweety_panic.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [ビルドデータURL(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [リポジトリURL](https://github.com/kyoka122/SweetyPanick_Scripts)"
 
-sub_image = "images/sweety_panic.gif"
+sub_image = "images/sweetypanic_tenji.png"
+sub_intro_title= "受賞・出展歴"
+sub_intro_summary= "・ ゲームクリエイターズ甲子園 小澤至論賞受賞\n・ 東京ゲームショウ2023 ゲームクリエイターズギルド様のスペースで展示\n・ 東京工業大学 ゲーム制作者交流イベント GAME^　2位受賞\n・ 東京電機大学学祭出展\n・ ゲームクリエイターズ甲子園 出展"
+
+main_demo_title= "▼ゲームクリエイターズ甲子園の審査員の方に遊んでいただいた時の様子\n（実装が古い箇所が多いです）"
+main_demo = "images/SweetyPanic_MV.mp4"
+
+sub_demo_title="▼デモ動画"
+sub_demo = "images/SweetyPanic_MV.mp4"
 +++
 
-## 受賞・出展歴
-- ゲームクリエイターズ甲子園 小澤至論賞受賞
-- 東京ゲームショウ2023 ゲームクリエイターズギルド様のスペースで展示
-- 東京工業大学 ゲーム制作者交流イベント GAME^3 - 2位
-- 東京電機大学学祭出展
-- ゲームクリエイターズ甲子園 出展
 
 ## キャッチコピー
 「直して！殴って？ kawaiiお菓子の国のお姫様達っ、暴れちゃいます！」
@@ -69,6 +72,7 @@ sub_image = "images/sweety_panic.gif"
   - HP管理
 - 扉から別ステージへ遷移する処理。
 - カメラ制御（ピンチイン、アウト、追跡）
+- 背景画像のカメラ追従（奥行演出のため、若干遅延させつつ追従させる）
 - インゲームスコア表示（数値、インジケーター）
 - プロローグ、エピローグ、スコア発表
   - 画面設計
@@ -80,8 +84,6 @@ sub_image = "images/sweety_panic.gif"
   - Maxスコア集計ツール（ゲーム内のお菓子の数が変動するとMaxスコアが変わるため）
 
 
-### ゲームクリエイターズ甲子園の審査員の方に遊んでいただいた時の様子（実装が古い箇所が多いです）
 
 
-### デモ動画
 
