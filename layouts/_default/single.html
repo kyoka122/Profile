@@ -42,6 +42,7 @@
     </div>
   </div>
 
+  {{ if .Params.sub_intro_active }}
   <div class="post-intro">
     <div class="post-intro-text">
       {{ if .Params.sub_intro_title }}
@@ -58,7 +59,9 @@
     </div>
     {{ end }}
   </div>
+  {{ end }}
 
+  
   <div class="post-content">
     {{ .Content }}
   </div>
@@ -69,16 +72,14 @@
       <h4 class="post-demo-title">{{.Params.main_demo_title | markdownify}}</h4>
     {{ end }}
     {{ if .Params.main_demo }}
-    <video controls src="{{ .Params.main_demo | relURL}}">
-    </video>
+    <iframe width="560" height="315" src="{{ .Params.main_demo | relURL}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     {{ end }}
 
     {{ if .Params.sub_demo_title }}
       <h4 class="post-demo-title">{{.Params.sub_demo_title | markdownify}}</h4>
     {{ end }}
     {{ if .Params.sub_demo }}
-    <video controls src="{{ .Params.sub_demo | relURL}}">
-    </video>
+    <iframe width="560" height="315" src="{{ .Params.sub_demo | relURL}}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     {{ end }}
   </div>
 
