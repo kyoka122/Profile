@@ -45,15 +45,11 @@
   <!-- Regular List Layout for Posts -->
   <ul class="home-list">
     {{ range .Pages }}
-    <li class="home-list-div">
+    <li class="carrer-list-div">
       <a href="{{ .RelPermalink }}" class="home-list-link">
         <span class="home-list-date">{{ .Date | time.Format ":date_medium" }}</span>
-        {{ if .Params.main_image }}
-        <div class="home-list-image" style="background-image: url('{{ .Params.main_image }}');"></div>
-        {{ end }}
-        <div class="home-list-content">
+        <div class="carrer-list-content">
           <div class="home-list-meta">
-            <span class="home-list-duration">{{ .ReadingTime }} min read</span>
           </div>
           <h3 class="home-list-title">{{ .LinkTitle }}</h3>
           {{ if .Summary }}

@@ -65,7 +65,7 @@ buildFuture = true
   
   [[menu.main]]
     name = "活動経歴"
-    url = "/posts/"
+    url = "/carrer/"
     weight = 4
   
   [[menu.main]]
