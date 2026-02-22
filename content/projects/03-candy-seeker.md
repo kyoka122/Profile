@@ -9,6 +9,10 @@ categories = ["ゲーム"]
 main_image = "images/candy_seeker.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　2Dオンラインパズルゲーム\n・ プレイ人数：　　 2人～8人\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　　 1人\n・ 開発時期：　　 2021年1月～3月（3ヶ月）\n・ 開発ツール：　　 Unity (C#), Photon\n・ [ゲームプレイ用URL](https://unityroom.com/games/candyseeker)"
+
+main_demo_title= "▼プレイ動画"
+main_demo = "https://www.youtube.com/embed/EIj73ySC-TA?si=k48RdwM-S1X_SY54"
+
 +++
 
 
@@ -41,7 +45,3 @@ intro_summary = "・ ゲームジャンル：　2Dオンラインパズルゲー
 - 配置しようとしているマスが隣り合うマスかどうかの判定
 - 敵の駒を挟んだかどうかの判定
 - イラスト作成（UI,2Dオブジェクト）
-
-## デモ動画
-
-

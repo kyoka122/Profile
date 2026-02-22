@@ -9,6 +9,9 @@ categories = ["ゲーム"]
 main_image = "images/sakura_space.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　3Dシューティングゲーム\n・ プレイ人数：　　 1人以上\n・ プラットフォーム：　Windows,WebGL\n・ 開発人数：　　 1人\n・ 開発時期：　　 2021年4月～7月（3ヶ月）\n・ 開発ツール：　 　Unity (C#), Photon, UniTask\n・ [ゲームプレイ用URL](https://unityroom.com/games/sakuraworld)"
+
+main_demo_title= "▼プレイ動画"
+main_demo = "https://www.youtube.com/embed/twanbQu0qMc?si=XAnWwFDdOPEOe10P"
 +++
 
 ## ゲーム概要
@@ -32,7 +35,3 @@ intro_summary = "・ ゲームジャンル：　3Dシューティングゲーム
 - カメラ回転処理
 
 - モデル作成（弓、矢）
-
-## デモ動画
-
-

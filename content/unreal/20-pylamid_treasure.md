@@ -9,11 +9,15 @@ categories = ["ゲーム"]
 main_image = "images/pylamid_treasure.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ プレイ人数：　　 1人\n・ プラットフォーム：　Windows\n・ 開発人数：　　  1人\n・ 開発時期：　　  2026年2月（2日間）\n・ 開発ツール：　　  Unreal Engine"
+
+main_demo_title= "▼プレイ動画"
+main_demo = "https://www.youtube.com/embed/4hBxp0evi58?si=AHYIoRE8UmGfMizt"
+
 +++
 
 
 ## ゲーム概要
-YouTubeのチュートリアル動画を参考に、簡単な3Dアクションゲームを開発しました。
+[YouTubeのチュートリアル動画](https://unityroom.com/games/sakuraworld) を参考に、簡単な3Dアクションゲームを開発しました。
 遺跡の舞台でコインを拾いつつ、出口を目指すゲームです。
 
 ## ゲームフロー
@@ -34,7 +38,3 @@ YouTubeのチュートリアル動画を参考に、簡単な3Dアクション�
 - レベルシーケンスを用いた扉アニメーション
 - 部屋の明かり実装(PointLightやDirectionalLightなど)
 - SE、BGM
-
-## デモ動画
-
-

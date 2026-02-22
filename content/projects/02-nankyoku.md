@@ -9,6 +9,9 @@ categories = ["ゲーム"]
 main_image = "images/nankyoku.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プレイ人数：　　 2人以上\n・ プラットフォーム：　WebGL, Windows\n・ 開発人数：　　  5人\n・ 開発時期：　　  2021年3月～2022年2月（1年）\n・ 開発ツール：　　  Unity (C#), Photon, UniRx, UniTask\n"
+
+main_demo_title= "▼プレイ動画"
+main_demo = "https://www.youtube.com/embed/TI8060ZsLL8?si=nnaX1khgLiNt-VJm"
 +++
 
 
@@ -32,12 +35,9 @@ intro_summary = "・ ゲームジャンル：　3DダンジョンRPG\n・ プレ
 ## 担当箇所
 - オンライン通信部分全般
  - 各プレイヤー位置の同期
+ - 2人以上で化石堀りをする時、お互いが叩いた位置の同期
  - 旗を奪う時の判定
  - 各プレイヤーのステータス同期等
 - 秘密基地の模様替え機能(オブジェクトの設置)
 - 基地の評価機能(カメラのスクリーンショットをRawAssetに貼り付け、UIとして表示)
 - SE、BGM
-
-## デモ動画
-
-

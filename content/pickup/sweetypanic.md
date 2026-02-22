@@ -9,19 +9,19 @@ categories = ["ゲーム"]
 
 main_image = "images/sweety_panic.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [ビルドデータURL(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [リポジトリURL](https://github.com/kyoka122/SweetyPanick_Scripts)"
+intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [リポジトリ](https://github.com/kyoka122/SweetyPanick_Scripts) \n・ [ビルドデータ(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [遊び方](https://docs.google.com/presentation/d/1DA4_XR-amGBbPXi5aSJKJWK74ZI6yot7aSPfwmwCNl4/edit?slide=id.g21f05f84707_0_0#slide=id.g21f05f84707_0_0)"
 
 sub_image = "images/sweetypanic_tenji.png"
 sub_intro_title= "受賞・出展歴"
-sub_intro_summary= "・ ゲームクリエイターズ甲子園 小澤至論賞受賞\n・ 東京ゲームショウ2023 ゲームクリエイターズギルド様のスペースで展示\n・ 東京工業大学 ゲーム制作者交流イベント GAME^　2位受賞\n・ 東京電機大学学祭出展\n・ ゲームクリエイターズ甲子園 出展"
+sub_intro_summary= "・ ゲームクリエイターズ甲子園 小澤至論賞受賞\n・ 東京ゲームショウ2023 ゲームクリエイターズギルド様のスペースで展示\n・ 東京工業大学 ゲーム制作者交流イベント GAME^　2位受賞\n・ 東京電機大学鳩山祭出展\n・ ゲームクリエイターズ甲子園 出展"
 
 main_demo_title= "▼ゲームクリエイターズ甲子園の審査員の方に遊んでいただいた時の様子\n（実装が古い箇所が多いです）"
-main_demo = "images/SweetyPanic_MV.mp4"
+main_demo = "https://www.youtube.com/embed/_jv7JqAIFBs?start=87"
 
-sub_demo_title="▼デモ動画"
-sub_demo = "images/SweetyPanic_MV.mp4"
+sub_intro_active = true
+sub_demo_title="▼プレイ動画"
+sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
 +++
-
 
 ## キャッチコピー
 「直して！殴って？ kawaiiお菓子の国のお姫様達っ、暴れちゃいます！」
@@ -42,7 +42,7 @@ sub_demo = "images/SweetyPanic_MV.mp4"
 7. スコア発表
 
 
-## 担当箇所
+## 担当箇所（[工夫・技術アピールはこちら🔗](https://docs.google.com/presentation/d/1sskgm4amgKqWIIuzZmuQuRU94pu4vdi8z4FgtSdTzk0/edit)）
 - コントローラーの登録と入力受け取り（Joy-con、キーボード、Xbox、Switch Proコントローラー）
 - プレイヤーの挙動
   - 移動、ジャンプ処理（坂道は上りやすくするため見えない力を加える）

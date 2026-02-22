@@ -9,6 +9,9 @@ categories = ["ゲーム"]
 main_image = "images/charge_magic.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　2Dシューティングアクション\n・ プレイ人数：　　 1人\n・ プラットフォーム：   WebGL, Windows\n・ 開発人数： 　 　3人\n・ 開発時期：　 　 2022年9月（1週間）\n　　　　　　　　 ┗ Unity1weekのゲームジャムイベント)\n・ 開発ツール：　　 Unity (C#), Unity, UniRx, UniTask\n・ [プレイ用URL](https://unityroom.com/games/chargemagic)\n・ [リポジトリURL](https://github.com/kyoka122/unity1week_tameru)"
+
+main_demo_title= "▼プレイ動画"
+main_demo = "https://www.youtube.com/embed/H7rMGzhWfT4?si=jeuMTCwRiI003MPK"
 +++
 
 ## ゲーム概要
@@ -35,8 +38,3 @@ intro_summary = "・ ゲームジャンル：　2Dシューティングアクシ
 - 魔法のチャージインジケーター実装
 - 敵のHP、生成間隔、プレイヤーの魔法パラメータの登録ツール
 - 制限時間、スコアの表示と管理
-
-
-## デモ動画
-
-

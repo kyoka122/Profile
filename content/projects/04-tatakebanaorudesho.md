@@ -9,6 +9,9 @@ categories = ["ゲーム"]
 main_image = "images/tatake.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　2D連打ゲーム\n・ プレイ人数：　　 1人\n・ プラットフォーム：　Windows\n・ 開発人数：　　 4人\n・ 開発時期：　　 約15時間 (2022年9月)\n　　　　　　　　 ┗ 株式会社カプコン様のハッカソンイベント)\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [ビルドデータURL(exe)](https://drive.google.com/drive/folders/1mziGi78-6UubG5d_Qm5qgtIS_c8vuemB?usp=drive_link)"
+
+main_demo_title= "▼プレイ動画"
+main_demo = "https://www.youtube.com/embed/ETwClcqdtyQ?si=HGR_NxJyaGcIvjNu"
 +++
 
 
@@ -35,8 +38,3 @@ intro_summary = "・ ゲームジャンル：　2D連打ゲーム\n・ プレイ
 - オブジェクトの登録ツール
 - ランダムに家電のオブジェクトが流れてきて、プレイヤーが叩き終えたら外に捌ける処理。また、それらオブジェクトのプーリング。
 - 家電を叩いた時の打撃エフェクト表示、カメラ揺れ
-
-
-## デモ動画
-
-
