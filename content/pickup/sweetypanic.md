@@ -13,7 +13,7 @@ intro_summary = "・ ゲームジャンル：　2D 横スクロールアクシ�
 
 sub_image = "images/sweetypanic_tenji.png"
 sub_intro_title= "受賞・出展歴"
-sub_intro_summary= "・ ゲームクリエイターズ甲子園 小澤至論賞受賞\n・ 東京ゲームショウ2023 ゲームクリエイターズギルド様のスペースで展示\n・ 東京工業大学 ゲーム制作者交流イベント GAME^　2位受賞\n・ 東京電機大学鳩山祭出展\n・ ゲームクリエイターズ甲子園 出展"
+sub_intro_summary= "・ ゲームクリエイターズ甲子園 小澤至論賞ノミネート\n・ 東京ゲームショウ2023 ゲームクリエイターズギルド様のスペースで展示\n・ 東京工業大学 ゲーム制作者交流イベント GAME^　2位受賞\n・ 東京電機大学鳩山祭出展\n・ ゲームクリエイターズ甲子園 出展"
 
 main_demo_title= "▼ゲームクリエイターズ甲子園の審査員の方に遊んでいただいた時の様子\n（実装が古い箇所が多いです）"
 main_demo = "https://www.youtube.com/embed/_jv7JqAIFBs?start=87"
