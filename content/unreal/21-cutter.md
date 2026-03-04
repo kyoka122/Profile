@@ -6,7 +6,7 @@ featured = true
 weight = 1
 tags = ["3D", "アクション", "個人開発"]
 categories = ["ゲーム"]
-main_image = "images/pylamid_treasure.gif"
+main_image = "images/cutter.gif"
 intro_title = "開発概要"
 intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ プレイ人数：　　 1人\n・ プラットフォーム：　Windows\n・ 開発人数：　　  1人\n・ 開発時期：　　  2026年2月～開発中\n・ 開発ツール：　　  Unreal Engine"
 
@@ -14,9 +14,12 @@ intro_summary = "・ ゲームジャンル：　3Dアクションゲーム\n・ 
 
 
 ## ゲーム概要
-遺跡の舞台でコインを拾いつつ、出口を目指すゲームです。
+数学と物理を使ったゲームを開発中です。
 
 ## ゲームフロー
+1. タイトル
+2. ステージ選択
+3. インゲーム
 
 
 ## 実装機能(全て担当)
