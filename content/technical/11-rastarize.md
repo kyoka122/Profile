@@ -8,57 +8,23 @@ tags = ["ツール", "個人開発"]
 categories = ["ツール"]
 
 main_image = "images/rastarize_gyotaku.png"
-intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　3Dパズルゲーム\n・ プレイ人数： 　　1人\n・ プラットフォーム：　Windows, HoloLens2 \n・ 開発人数：　　  1人\n・ 開発時期：　　  2023年9月～12月（4ヶ月）\n・ 開発ツール：　　  Unity (C#), MRTK, UniRx, UniTask"
 +++
 
-A minimal markdown editor designed for focused writing. Built with modern web technologies for a smooth, native-like experience.
+## ツール概要
+3D一筆書きを使用した研究の調査指標として、オブジェクト群がカメラに映った時の総面積（射影面積）を求めるため、ラスタライズ法で面積計算を実装しました。
+上の画像は、算出した面積が正しいかどうかの指標として、各ピクセルの描画フラグがONのものを1、OFFのものを0でテキストファイルに書き出したものになります。（中央の切れ目はテキストファイルのプレビュー枠で、2ファイルに分けて書き出したことにより見えてしまっています）
 
-## 開発意図
+## 実装にあたっての工夫
+↑の処理を複数角度から行っていたため、元々全ての処理を終えるまでに6時間かかっていたのですが、それだと研究に支障がでるため、以下の流れで高速化を試しました。
 
-### 軽量化について
+1. マルチスレッドで実装する。
 
-Full-screen mode that hides all UI elements except your text. Perfect for deep focus writing sessions.
+=> 2時間まで抑えられました。
 
-### Live Preview
+2. 必要ないピクセルの計算を除外
 
-See your formatted markdown in real-time with a side-by-side preview pane. The preview scrolls in sync with your editing.
+一筆書きオブジェクトは、1920×1080の画面でオブジェクトを回転した時に画面から飛び出さないように設置するため、必ず1080×1080以内の範囲に収まる。そのため、(1920-1080)×1080 = 907200(px)分、計算回数を減らすことができました。
 
-### Syntax Highlighting
+=> 30分まで抑えられました。
 
-Code blocks are beautifully highlighted with support for 100+ programming languages.
-
-### Document Management
-
-- Auto-save to prevent data loss
-- Version history
-- Export to HTML, PDF, or plain text
-- Cloud sync (optional)
-
-### Customization
-
-- Multiple themes (light, dark, sepia)
-- Font size and family options
-- Custom CSS support
-- Configurable keyboard shortcuts
-
-## Technology Stack
-
-Built with:
-- React for the UI
-- CodeMirror for the editor
-- Marked.js for markdown parsing
-- Electron for desktop apps (optional)
-
-## Use Cases
-
-Perfect for:
-- Blog post writing
-- Documentation
-- Note-taking
-- Technical writing
-- README files
-
-## Download
-
-Available for Windows, macOS, and Linux. Also runs in the browser.
+[🔗ソースコード](https://github.com/kyoka122/SquareCalculation/blob/4ca696a9018221dbd1064a5c0cf98f163a3a2420/Assets/Scripts/View/OverlapDataCreator.cs)

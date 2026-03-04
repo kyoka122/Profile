@@ -46,7 +46,7 @@
   <ul class="home-list">
     {{ range .Pages }}
     <li class="carrer-list-div">
-      <a href="{{ .RelPermalink }}" class="home-list-link">
+      <div class="home-list-link">
         <span class="home-list-date">{{ .Date | time.Format ":date_medium" }}</span>
         <div class="carrer-list-content">
           <div class="home-list-meta">
