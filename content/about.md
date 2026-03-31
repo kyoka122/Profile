@@ -1,25 +1,44 @@
 ---
-title: "About"
+title: "スキル"
 layout: "about"
 ---
 
-Yassi is a modern Hugo theme designed for developers, writers, and creators who want a clean, focused platform for their content.
+## ■言語
+- **C#** - 6年
+- **PHP** - 2年
+- **C** - 3年
+- **C++** - 1年
+- **Java** - 1年
 
-## Key Features
+#### 　▼その他講義等で使用したことがある程度
+- **HTML, JavaScript, Python, GAS(Google App Script) etc...**
 
-The theme emphasizes readability and user experience with:
+## ■ツール
 
-- **Timeline Blog Layout** - Chronological post display with interactive elements
-- **Dark Mode Support** - Automatic theme switching with persistent preferences
-- **Flexible Project Showcase** - Choose between carousel or grid layouts
-- **Word Cloud Taxonomies** - Visual representation of tags and categories
-- **Responsive Design** - Optimized for all devices and screen sizes
-- **Social Integration** - Easy configuration for social media links
+#### 　▼ゲームエンジン
+- **Unity** - 6年
+- **UnrealEngine** - 1年未満
 
-## Design Philosophy
+#### 　▼バージョン管理ツール
+- **Git** - 6年
+- **GitHub** - 6年
+- **Fork** - 4年
+- **SourceTree** - 1年
 
-Yassi follows a minimal design philosophy that puts your content first. Clean typography, ample whitespace, and thoughtful interactions create a pleasant reading experience for your visitors.
+#### 　▼統合開発環境
+- **Rider** - 4年
+- **Visual Studio** - 2年
+- **VSCode** - 1年未満
 
-## Technical Stack
+#### 　▼サーバー
+- **DockerDesktop**
 
-Built with Hugo's powerful templating system and modern CSS, Yassi is fast, lightweight, and easy to customize.
+#### 　▼その他講義等で使用したことがある程度
+- **LaTeX, Prolog**
+
+## ■プログラム関連以外で触ったことのあるツール
+- **Maya**
+- **Photoshop**
+- **Illustrator**
+- **PremirePro**
+- **Cakewark**

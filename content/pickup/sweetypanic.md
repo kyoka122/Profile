@@ -9,7 +9,7 @@ categories = ["ゲーム"]
 
 main_image = "images/sweety_panic.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [リポジトリ](https://github.com/kyoka122/SweetyPanick_Scripts) \n・ [ビルドデータ(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [遊び方](https://docs.google.com/presentation/d/1DA4_XR-amGBbPXi5aSJKJWK74ZI6yot7aSPfwmwCNl4/edit?slide=id.g21f05f84707_0_0#slide=id.g21f05f84707_0_0)"
+intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [ソースコード](https://github.com/kyoka122/SweetyPanick_Scripts) \n・ [ビルドデータ(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [遊び方](https://docs.google.com/presentation/d/1DA4_XR-amGBbPXi5aSJKJWK74ZI6yot7aSPfwmwCNl4/edit?slide=id.g21f05f84707_0_0#slide=id.g21f05f84707_0_0)"
 
 sub_image = "images/sweetypanic_tenji.png"
 sub_intro_title= "受賞・出展歴"
@@ -51,18 +51,18 @@ sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
   - 敵への攻撃判定(走っているときは当たり判定範囲を増やす)
   - 画面外へ行ったキャラのワープ
   - HPが0になった時の自動回復機能
-  - 初めてオブジェクト（敵、お菓子、段差等）に対面した時等のキー表示アシスト
+  - **初めてオブジェクト（敵、お菓子、段差等）に対面した時等のキー表示アシスト**
 - エネミーの挙動
   - 移動処理と各キャラ移動範囲などのパラメータ管理
-  - 吹っ飛び挙動
-  - 画面外に出た時にアニメーションと移動を止める処理
+  - 吹っ飛び → 壁に当たって消えるまでの挙動
+  - **画面外に出た時にアニメーションと移動を止める処理**
   - 特殊エネミー（鍵持ち）のトランポリンジャンプ処理や、倒した時の鍵落下処理
 - お菓子挙動
   - 修復、食べられる挙動（シェーダーを使用したアニメーション）
   - 修復時のスコア管理
 - ギミックお菓子修復時挙動
-  - クレープ - カメラ揺れと轟音とともに敵を巻き込む
-  - マシュマロ - トランポリンのように跳ねる
+  - **クレープ - カメラ揺れと轟音とともに敵を巻き込む**
+  - **マシュマロ - トランポリンのように跳ねる+キー入力タイミングのガイド表示**
   - ガム - ガムのついた土台が浮かぶ
   - キャンディ - 壊れたキャンディ橋がつながる、明かりがつく（暗闇ステージ）
 - ボスの挙動
@@ -72,7 +72,7 @@ sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
   - HP管理
 - 扉から別ステージへ遷移する処理。
 - カメラ制御（ピンチイン、アウト、追跡）
-- 背景画像のカメラ追従（奥行演出のため、若干遅延させつつ追従させる）
+- **背景画像のカメラ追従（奥行演出のため、若干遅延させつつカメラに背景を追従させる）**
 - インゲームスコア表示（数値、インジケーター）
 - プロローグ、エピローグ、スコア発表
   - 画面設計
@@ -80,10 +80,11 @@ sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
   - 演出全般
 - SE、BGM
 - ツール
+  - **エフェクトのオブジェクトプール機能（エネミーが壁に当たった時の画像エフェクト、お菓子を直す時のキラキラエフェクト）**
   - デバッグ用コントローラー、キャラデータ設定
   - Maxスコア集計ツール（ゲーム内のお菓子の数が変動するとMaxスコアが変わるため）
-
-
+- その他
+  - パフォーマンスチューニング
 
 
 

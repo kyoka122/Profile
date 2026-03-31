@@ -15,7 +15,7 @@ main_demo = "https://www.youtube.com/embed/hbHqY6k-EIQ?si=I4El0ijb4Q5klaMD"
 +++
 
 ## ゲーム概要
-卒業研究で実験のために開発した3Dの一筆書きです。
+卒業研究で実験のために開発したゲームで、内容としては一筆書きを3Dにしたゲームです。
 5ステージ連続で挑戦します。
 HoloLens2というXRデバイスとPCの2プラットフォームで遊べます。
 
