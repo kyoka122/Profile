@@ -9,7 +9,7 @@ categories = ["ゲーム"]
 
 main_image = "images/sweety_panic.gif"
 intro_title = "開発概要"
-intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#), DOTween\n・ [ソースコード](https://github.com/kyoka122/SweetyPanick_Scripts) \n・ [ビルドデータ(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [遊び方](https://docs.google.com/presentation/d/1DA4_XR-amGBbPXi5aSJKJWK74ZI6yot7aSPfwmwCNl4/edit?slide=id.g21f05f84707_0_0#slide=id.g21f05f84707_0_0)"
+intro_summary = "・ ゲームジャンル：　2D 横スクロールアクション\n・ プレイ人数：　　 1～4人\n・ プラットフォーム：   Windows\n・ 開発人数：　　  4人\n・ 開発時期：　　  2022年8月~2023年11月(1年)\n　　　　　　　　  ┗ 後に1か月ほどブラッシュアップ\n・ 開発ツール：　　 Unity (C#)\n・ [ソースコード](https://github.com/kyoka122/SweetyPanick_Scripts) \n・ [ビルドデータ(exe)](https://drive.google.com/drive/folders/1vFDa5Yt3og1yGbf4EyaKUBbuzH0xTiqZ?usp=drive_link) \n・ [遊び方](https://docs.google.com/presentation/d/1DA4_XR-amGBbPXi5aSJKJWK74ZI6yot7aSPfwmwCNl4/edit?slide=id.g21f05f84707_0_0#slide=id.g21f05f84707_0_0)"
 
 sub_image = "images/sweetypanic_tenji.png"
 sub_intro_title= "受賞・出展歴"
@@ -51,6 +51,7 @@ sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
   - 敵への攻撃判定(走っているときは当たり判定範囲を増やす)
   - 画面外へ行ったキャラのワープ
   - HPが0になった時の自動回復機能
+  - 扉を叩くと別ステージへ遷移する処理。
   - **初めてオブジェクト（敵、お菓子、段差等）に対面した時等のキー表示アシスト**
 - エネミーの挙動
   - 移動処理と各キャラ移動範囲などのパラメータ管理
@@ -70,9 +71,12 @@ sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
   - エネミーを投下する処理
   - お菓子の台を修復すると上下移動する処理
   - HP管理
-- 扉から別ステージへ遷移する処理。
-- カメラ制御（ピンチイン、アウト、追跡）
-- **背景画像のカメラ追従（奥行演出のため、若干遅延させつつカメラに背景を追従させる）**
+- 画面遷移処理
+  - キャラが走るローディング + ゲーム説明画像付きの遷移
+  - 簡易遷移（フェードイン、フェードアウト）  
+- カメラ制御
+  - ピンチイン、アウト、追跡
+  - **背景画像のカメラ追従（奥行演出のため、若干遅延させつつカメラに背景を追従させる）**
 - インゲームスコア表示（数値、インジケーター）
 - プロローグ、エピローグ、スコア発表
   - 画面設計
@@ -82,9 +86,6 @@ sub_demo = "https://www.youtube.com/embed/EPZSEHNz4Lo?si=pKT-DplQLJBHf1EZ"
 - ツール
   - **エフェクトのオブジェクトプール機能（エネミーが壁に当たった時の画像エフェクト、お菓子を直す時のキラキラエフェクト）**
   - デバッグ用コントローラー、キャラデータ設定
-  - Maxスコア集計ツール（ゲーム内のお菓子の数が変動するとMaxスコアが変わるため）
+  -  Maxスコア集計ツール（ステージのprefab内に配置するお菓子の数によってMaxスコアが変わるため）
 - その他
   - パフォーマンスチューニング
-
-
-
